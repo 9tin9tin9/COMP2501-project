@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+authors:
+- family-names: "Siu"
+  given-names: "Yat Fung"
+title: "Twitter influencers' influence on their followers' behaviour"
+version: 1.0.0
+date-released: 2023-4-30
+url: "https://github.com/9tin9tin9/COMP2501-project"

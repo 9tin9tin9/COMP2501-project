@@ -1,0 +1,1204 @@
+[
+    {
+        "created_at": "2023-04-20T01:00:29.000Z",
+        "entities": {
+            "urls": [
+                {
+                    "start": 73,
+                    "end": 96,
+                    "url": "https://t.co/d1JqKgzqVA",
+                    "expanded_url": "https://twitter.com/JoeBiden/status/1648854111788384259/video/1",
+                    "display_url": "pic.twitter.com/d1JqKgzqVA",
+                    "media_key": "13_1648854005068492801"
+                }
+            ]
+        },
+        "text": "You\u2019ve got to ask yourself, what are MAGA Republicans in Congress doing? https://t.co/d1JqKgzqVA",
+        "edit_history_tweet_ids": [
+            "1648854111788384259"
+        ],
+        "id": "1648854111788384259",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "88",
+                    "name": "Political Body",
+                    "description": "A section of a government, like The Supreme Court"
+                },
+                "entity": {
+                    "id": "961705302700654593",
+                    "name": "United States Congress",
+                    "description": "United States Congress"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "961705302700654593",
+                    "name": "United States Congress",
+                    "description": "United States Congress"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1068583660914266113",
+                    "name": "Government institutions",
+                    "description": "Political Body"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ]
+    },
+    {
+        "created_at": "2023-04-19T23:13:00.000Z",
+        "text": "When Speaker McCarthy went to Wall Street, he did not tell the wealthy it was time to start paying their fair share of taxes. Instead, he proposed huge cuts to programs that millions of Americans count on and threatened to become the first speaker to default on our national debt.",
+        "entities": {
+            "annotations": [
+                {
+                    "start": 13,
+                    "end": 20,
+                    "probability": 0.507,
+                    "type": "Person",
+                    "normalized_text": "McCarthy"
+                },
+                {
+                    "start": 30,
+                    "end": 40,
+                    "probability": 0.9516,
+                    "type": "Place",
+                    "normalized_text": "Wall Street"
+                }
+            ]
+        },
+        "edit_history_tweet_ids": [
+            "1648827065242640384"
+        ],
+        "id": "1648827065242640384",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847511168268644352",
+                    "name": "Global Economy",
+                    "description": "Conversation about global finance and economies."
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "900740740468191232",
+                    "name": "Political issues",
+                    "description": "Political issues"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1291447199595782144",
+                    "name": "United States politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1518689897296453633",
+                    "name": "United States political issues"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1561886046505222144",
+                    "name": "National debt of the United States"
+                }
+            }
+        ]
+    },
+    {
+        "created_at": "2023-04-19T21:33:05.000Z",
+        "entities": {
+            "urls": [
+                {
+                    "start": 200,
+                    "end": 223,
+                    "url": "https://t.co/owp4QAbqkP",
+                    "expanded_url": "https://twitter.com/JoeBiden/status/1648801920339918848/photo/1",
+                    "display_url": "pic.twitter.com/owp4QAbqkP",
+                    "media_key": "3_1648801899359944707"
+                }
+            ]
+        },
+        "text": "The executive order I signed yesterday is the most comprehensive set of actions any administration has taken to increase access to high-quality child care, long-term care, and support for caregivers. https://t.co/owp4QAbqkP",
+        "edit_history_tweet_ids": [
+            "1648801920339918848"
+        ],
+        "id": "1648801920339918848",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "864925500627484672",
+                    "name": "Family and life stages",
+                    "description": "Family and Life Stages"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "1092545020932976640",
+                    "name": "Caregiving",
+                    "description": "Caregiving"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ]
+    },
+    {
+        "created_at": "2023-04-19T19:55:06.000Z",
+        "entities": {
+            "urls": [
+                {
+                    "start": 245,
+                    "end": 268,
+                    "url": "https://t.co/tAwb1ovVwj",
+                    "expanded_url": "https://twitter.com/JoeBiden/status/1648777262202773507/photo/1",
+                    "display_url": "pic.twitter.com/tAwb1ovVwj",
+                    "media_key": "3_1648777241185202176"
+                }
+            ]
+        },
+        "text": "Over 12 million jobs have been created since we took office.\nUnemployment has been below 4% for 14 straight months.\nMore Americans are applying to start small businesses.\n\nThe progress we\u2019ve made is creating strong, sustainable economic growth. https://t.co/tAwb1ovVwj",
+        "edit_history_tweet_ids": [
+            "1648777262202773507"
+        ],
+        "id": "1648777262202773507",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "69",
+                    "name": "News Vertical",
+                    "description": "News Categories like Entertainment or Technology"
+                },
+                "entity": {
+                    "id": "840159122012102656",
+                    "name": "Political News",
+                    "description": "Political News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "69",
+                    "name": "News Vertical",
+                    "description": "News Categories like Entertainment or Technology"
+                },
+                "entity": {
+                    "id": "840161214890106880",
+                    "name": "Business news",
+                    "description": "Business & Finance News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847511168268644352",
+                    "name": "Global Economy",
+                    "description": "Conversation about global finance and economies."
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "900740740468191232",
+                    "name": "Political issues",
+                    "description": "Political issues"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "949315450973782016",
+                    "name": "Job Growth in the United States",
+                    "description": "Conversation about job growth or decline in the US"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1407811550987972617",
+                    "name": "Industries"
+                }
+            }
+        ]
+    },
+    {
+        "created_at": "2023-04-19T16:29:06.000Z",
+        "entities": {
+            "urls": [
+                {
+                    "start": 72,
+                    "end": 95,
+                    "url": "https://t.co/2lTouXoinZ",
+                    "expanded_url": "https://twitter.com/JoeBiden/status/1648725417992364035/photo/1",
+                    "display_url": "pic.twitter.com/2lTouXoinZ",
+                    "media_key": "3_1648725397104623635"
+                }
+            ]
+        },
+        "text": "That\u2019s why we\u2019re building an economy from the bottom up and middle out. https://t.co/2lTouXoinZ",
+        "edit_history_tweet_ids": [
+            "1648725417992364035"
+        ],
+        "id": "1648725417992364035",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ]
+    },
+    {
+        "created_at": "2023-04-18T22:38:00.000Z",
+        "entities": {
+            "mentions": [
+                {
+                    "start": 185,
+                    "end": 198,
+                    "username": "KamalaHarris",
+                    "id": "30354991"
+                }
+            ],
+            "annotations": [
+                {
+                    "start": 156,
+                    "end": 158,
+                    "probability": 0.5117,
+                    "type": "Person",
+                    "normalized_text": "Roe"
+                },
+                {
+                    "start": 163,
+                    "end": 166,
+                    "probability": 0.6134,
+                    "type": "Person",
+                    "normalized_text": "Wade"
+                }
+            ]
+        },
+        "text": "The only way to stop those who are committed to taking away women\u2019s rights and freedoms in every state is to elect a Congress who will pass a law restoring Roe v. Wade.\n\nVice President @KamalaHarris and I will continue to lead the fight to protect a woman\u2019s right to an abortion.",
+        "edit_history_tweet_ids": [
+            "1648455869624107008"
+        ],
+        "id": "1648455869624107008",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "875006493984149509",
+                    "name": "Kamala Harris",
+                    "description": "US Senator Kamala Harris (CA)"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "875006493984149509",
+                    "name": "Kamala Harris",
+                    "description": "US Senator Kamala Harris (CA)"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "875006493984149509",
+                    "name": "Kamala Harris",
+                    "description": "US Senator Kamala Harris (CA)"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "900740740468191232",
+                    "name": "Political issues",
+                    "description": "Political issues"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1521295104438284288",
+                    "name": "Reproductive Rights in the United States"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "900740740468191232",
+                    "name": "Political issues",
+                    "description": "Political issues"
+                }
+            }
+        ]
+    },
+    {
+        "created_at": "2023-04-18T18:40:01.000Z",
+        "text": "Congress must pass a law restoring Roe vs. Wade.",
+        "entities": {
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 7,
+                    "probability": 0.7455,
+                    "type": "Organization",
+                    "normalized_text": "Congress"
+                },
+                {
+                    "start": 35,
+                    "end": 37,
+                    "probability": 0.7107,
+                    "type": "Person",
+                    "normalized_text": "Roe"
+                },
+                {
+                    "start": 43,
+                    "end": 46,
+                    "probability": 0.7864,
+                    "type": "Person",
+                    "normalized_text": "Wade"
+                }
+            ]
+        },
+        "edit_history_tweet_ids": [
+            "1648395976774696960"
+        ],
+        "id": "1648395976774696960",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "900740740468191232",
+                    "name": "Political issues",
+                    "description": "Political issues"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1521295104438284288",
+                    "name": "Reproductive Rights in the United States"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "900740740468191232",
+                    "name": "Political issues",
+                    "description": "Political issues"
+                }
+            }
+        ]
+    },
+    {
+        "created_at": "2023-04-18T15:19:05.000Z",
+        "entities": {
+            "urls": [
+                {
+                    "start": 227,
+                    "end": 250,
+                    "url": "https://t.co/xrkjQRPXDA",
+                    "expanded_url": "https://twitter.com/JoeBiden/status/1648345412938366977/photo/1",
+                    "display_url": "pic.twitter.com/xrkjQRPXDA",
+                    "media_key": "3_1648345392017297415"
+                }
+            ],
+            "annotations": [
+                {
+                    "start": 104,
+                    "end": 110,
+                    "probability": 0.9851,
+                    "type": "Place",
+                    "normalized_text": "Ireland"
+                },
+                {
+                    "start": 142,
+                    "end": 148,
+                    "probability": 0.9776,
+                    "type": "Place",
+                    "normalized_text": "Ireland"
+                },
+                {
+                    "start": 158,
+                    "end": 170,
+                    "probability": 0.9489,
+                    "type": "Place",
+                    "normalized_text": "United States"
+                }
+            ]
+        },
+        "text": "As the Irish saying goes, \u201cYour feet will bring you where your heart is.\u201d\n\nIt was an honor to return to Ireland to celebrate things that bind Ireland and the United States, and recommit ourselves to peace, equity, and dignity. https://t.co/xrkjQRPXDA",
+        "edit_history_tweet_ids": [
+            "1648345412938366977"
+        ],
+        "id": "1648345412938366977",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ]
+    },
+    {
+        "created_at": "2023-04-18T01:00:07.000Z",
+        "text": "It is within Congress\u2019 power to require safe storage of firearms, require background checks for all gun sales, eliminate gun manufacturers\u2019 immunity from liability, and ban assault weapons and high-capacity magazines\u2014and this should happen without delay.",
+        "entities": {
+            "annotations": [
+                {
+                    "start": 13,
+                    "end": 20,
+                    "probability": 0.7902,
+                    "type": "Organization",
+                    "normalized_text": "Congress"
+                }
+            ]
+        },
+        "edit_history_tweet_ids": [
+            "1648129246416519169"
+        ],
+        "id": "1648129246416519169",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ]
+    },
+    {
+        "created_at": "2023-04-17T23:02:05.000Z",
+        "entities": {
+            "urls": [
+                {
+                    "start": 188,
+                    "end": 211,
+                    "url": "https://t.co/hVp0BT20L0",
+                    "expanded_url": "https://twitter.com/JoeBiden/status/1648099541860614144/photo/1",
+                    "display_url": "pic.twitter.com/hVp0BT20L0",
+                    "media_key": "3_1648099520721321987"
+                }
+            ],
+            "annotations": [
+                {
+                    "start": 142,
+                    "end": 148,
+                    "probability": 0.8115,
+                    "type": "Place",
+                    "normalized_text": "America"
+                }
+            ]
+        },
+        "text": "All over the country, semiconductor companies are investing hundreds of billions of dollars to bring chip production back home. Now, \u201cMade in America\u201d isn\u2019t just a slogan: it\u2019s a reality. https://t.co/hVp0BT20L0",
+        "edit_history_tweet_ids": [
+            "1648099541860614144"
+        ],
+        "id": "1648099541860614144",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ]
+    }
+]

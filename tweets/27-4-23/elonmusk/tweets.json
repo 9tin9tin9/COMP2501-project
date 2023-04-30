@@ -1,0 +1,1007 @@
+[
+    {
+        "text": "Verified accounts are now prioritized",
+        "edit_history_tweet_ids": [
+            "1650731557164818437"
+        ],
+        "id": "1650731557164818437",
+        "created_at": "2023-04-25T05:20:46.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ]
+    },
+    {
+        "text": "Sometimes, when you learn about something, you think you have it",
+        "edit_history_tweet_ids": [
+            "1650729691043573761"
+        ],
+        "id": "1650729691043573761",
+        "created_at": "2023-04-25T05:13:22.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ]
+    },
+    {
+        "text": "The collective mind that is this platform needs more signal &amp; less noise",
+        "edit_history_tweet_ids": [
+            "1650703841468219394"
+        ],
+        "id": "1650703841468219394",
+        "created_at": "2023-04-25T03:30:39.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ]
+    },
+    {
+        "text": "Censor not, lest ye be censored",
+        "edit_history_tweet_ids": [
+            "1650656867599671296"
+        ],
+        "id": "1650656867599671296",
+        "created_at": "2023-04-25T00:23:59.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ]
+    },
+    {
+        "text": "Or maybe just X https://t.co/5nCtYbrPfN",
+        "edit_history_tweet_ids": [
+            "1650637588078665728"
+        ],
+        "id": "1650637588078665728",
+        "entities": {
+            "urls": [
+                {
+                    "start": 16,
+                    "end": 39,
+                    "url": "https://t.co/5nCtYbrPfN",
+                    "expanded_url": "https://twitter.com/elonmusk/status/999367582271422464",
+                    "display_url": "twitter.com/elonmusk/statu\u2026"
+                }
+            ]
+        },
+        "created_at": "2023-04-24T23:07:23.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1074755369530880001",
+                    "name": "Journalists",
+                    "description": "Journalism"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ]
+    },
+    {
+        "text": "We\u2019re rapidly improving transparency &amp; fairness on this platform, but there is still a lot of work to do https://t.co/lzorcmXAnd",
+        "edit_history_tweet_ids": [
+            "1650614277244436480"
+        ],
+        "id": "1650614277244436480",
+        "entities": {
+            "urls": [
+                {
+                    "start": 109,
+                    "end": 132,
+                    "url": "https://t.co/lzorcmXAnd",
+                    "expanded_url": "https://twitter.com/twittersafety/status/1650610481751523329",
+                    "display_url": "twitter.com/twittersafety/\u2026"
+                }
+            ]
+        },
+        "created_at": "2023-04-24T21:34:45.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ]
+    },
+    {
+        "text": "Hard to believe Starship actually did launch on 4/20 lol",
+        "edit_history_tweet_ids": [
+            "1650613334968860678"
+        ],
+        "id": "1650613334968860678",
+        "entities": {
+            "annotations": [
+                {
+                    "start": 16,
+                    "end": 23,
+                    "probability": 0.9058,
+                    "type": "Other",
+                    "normalized_text": "Starship"
+                }
+            ]
+        },
+        "created_at": "2023-04-24T21:31:00.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ]
+    },
+    {
+        "text": "Content creators may wish to enable subscriptions on this platform. \n\nJust tap on Monetization in settings. https://t.co/CmD06Mczmn",
+        "edit_history_tweet_ids": [
+            "1650607963084554288"
+        ],
+        "id": "1650607963084554288",
+        "entities": {
+            "urls": [
+                {
+                    "start": 108,
+                    "end": 131,
+                    "url": "https://t.co/CmD06Mczmn",
+                    "expanded_url": "https://twitter.com/elonmusk/status/1650607963084554288/photo/1",
+                    "display_url": "pic.twitter.com/CmD06Mczmn",
+                    "media_key": "3_1650607953957867524"
+                }
+            ]
+        },
+        "created_at": "2023-04-24T21:09:39.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ]
+    },
+    {
+        "text": "We live in the most interesting of times",
+        "edit_history_tweet_ids": [
+            "1650607350456131607"
+        ],
+        "id": "1650607350456131607",
+        "created_at": "2023-04-24T21:07:13.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ]
+    }
+]

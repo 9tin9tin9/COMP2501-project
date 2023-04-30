@@ -1,0 +1,1941 @@
+[
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 106,
+                    "end": 129,
+                    "url": "https://t.co/scPncPeqoK",
+                    "expanded_url": "https://cnn.it/3Lw8ME0",
+                    "display_url": "cnn.it/3Lw8ME0",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651219873039814656/_mxfTD9j?format=jpg&name=orig",
+                            "width": 800,
+                            "height": 450
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651219873039814656/_mxfTD9j?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "Nicolas Cage says movie roles kept him afloat after poor business decisions | CNN",
+                    "description": "Nicolas Cage says he took some \"crummy\" movie roles to get out of debt after some poor business decisions.",
+                    "unwound_url": "https://www.cnn.com/2023/04/26/entertainment/nicolas-cage-debt/index.html?utm_medium=social&utm_source=twCNN&utm_content=2023-04-27T03%3A30%3A11&utm_term=link"
+                }
+            ]
+        },
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "974734458845671424",
+                    "name": "Nicolas Cage",
+                    "description": "Nicolas Cage"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697121477832705",
+                    "name": "Publisher & News Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to  marketing and advertiser agencies, publishers of magazines, newspapers, blogs, books"
+                }
+            },
+            {
+                "domain": {
+                    "id": "56",
+                    "name": "Actor",
+                    "description": "An actor or actress in the world, like Kate Winslet or Leonardo DiCaprio"
+                },
+                "entity": {
+                    "id": "974734458845671424",
+                    "name": "Nicolas Cage",
+                    "description": "Nicolas Cage"
+                }
+            },
+            {
+                "domain": {
+                    "id": "69",
+                    "name": "News Vertical",
+                    "description": "News Categories like Entertainment or Technology"
+                },
+                "entity": {
+                    "id": "1298002530362773504",
+                    "name": "US Political News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "974734458845671424",
+                    "name": "Nicolas Cage",
+                    "description": "Nicolas Cage"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1298002530362773504",
+                    "name": "US Political News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "45",
+                    "name": "Brand Vertical",
+                    "description": "Top level entities that describe a Brands industry"
+                },
+                "entity": {
+                    "id": "781974597310615553",
+                    "name": "Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "781974597105094656",
+                    "name": "TV/Movies Related - Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447117297905665",
+                    "name": "News outlets"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1448806814212976641",
+                    "name": "Biden signs bill to raise debt limit, averting federal default",
+                    "description": "President Joe Biden on Thursday signed into law a bill raising the nation\u2019s debt limit by $480 billion, delaying the prospect of an unprecedented federal default until December, the White House said. Without the increase in the debt ceiling, the Treasury had estimated it would run out of money to pay the nation's bills on October 18, which Secretary Janet Yellen warned would lead to an \"economic catastrophe.\" "
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1451358585376575499",
+                    "name": "NZ roadmap"
+                }
+            }
+        ],
+        "id": "1651428517404352512",
+        "created_at": "2023-04-27T03:30:15.000Z",
+        "text": "Nicolas Cage says he took some \u201ccrummy\u201d movie roles to get out of debt after some poor business decisions https://t.co/scPncPeqoK",
+        "edit_history_tweet_ids": [
+            "1651428517404352512"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 212,
+                    "end": 235,
+                    "url": "https://t.co/maLbaDqj0j",
+                    "expanded_url": "https://cnn.it/3V8TY16",
+                    "display_url": "cnn.it/3V8TY16",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651355505644785664/iOkOjUP4?format=jpg&name=orig",
+                            "width": 800,
+                            "height": 450
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651355505644785664/iOkOjUP4?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "Texas woman denied an abortion tells senators she 'nearly died on their watch' | CNN",
+                    "description": "A woman who is suing the state of Texas after being denied an abortion told lawmakers Wednesday that not receiving abortion care harmed her mental health and might prevent her from having children in the future.",
+                    "unwound_url": "https://www.cnn.com/2023/04/26/health/abortion-hearing-texas-senators-amanda-zurawski/index.html?utm_term=link&utm_content=2023-04-27T03%3A15%3A00&utm_source=twCNN&utm_medium=social"
+                }
+            ]
+        },
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697121477832705",
+                    "name": "Publisher & News Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to  marketing and advertiser agencies, publishers of magazines, newspapers, blogs, books"
+                }
+            },
+            {
+                "domain": {
+                    "id": "45",
+                    "name": "Brand Vertical",
+                    "description": "Top level entities that describe a Brands industry"
+                },
+                "entity": {
+                    "id": "781974597310615553",
+                    "name": "Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "781974597105094656",
+                    "name": "TV/Movies Related - Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447117297905665",
+                    "name": "News outlets"
+                }
+            },
+            {
+                "domain": {
+                    "id": "159",
+                    "name": "States",
+                    "description": "States, provinces, or prefectures, like California or Fukushima Prefecture"
+                },
+                "entity": {
+                    "id": "855432197297192961",
+                    "name": "Texas",
+                    "description": "Texas"
+                }
+            },
+            {
+                "domain": {
+                    "id": "69",
+                    "name": "News Vertical",
+                    "description": "News Categories like Entertainment or Technology"
+                },
+                "entity": {
+                    "id": "1003932601839579136",
+                    "name": "US national news",
+                    "description": "US National News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1003932601839579136",
+                    "name": "US national news",
+                    "description": "US National News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1443944292695744517",
+                    "name": "Federal court hears Department of Justice's request to block Texas' controversial abortion ban",
+                    "description": "A federal judge in the US District Court for the Western District of Texas is hearing arguments from the US Department of Justice as well as the state of Texas on whether to block Texas Senate Bill 8, the ban on abortions past six weeks. The state law went into effect on September 1 and the Justice Department has said the law is \"in open defiance of the Constitution,\" according to NBC News. \n\nThe Justice Department sued Texas last month because the abortion ban violated the Supremacy Clause and equal protection under the 14th Amendment. The House also held a hearing on SB8 on Thursday, during which three female members of Congress testified about their decisions to have abortions. \n\n"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1451358585376575499",
+                    "name": "NZ roadmap"
+                }
+            }
+        ],
+        "id": "1651424696737333249",
+        "created_at": "2023-04-27T03:15:04.000Z",
+        "text": "A woman who is suing the state of Texas after being denied an abortion told lawmakers Wednesday that not receiving abortion care harmed her mental health and might prevent her from having children in the future. https://t.co/maLbaDqj0j",
+        "edit_history_tweet_ids": [
+            "1651424696737333249"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 73,
+                    "end": 96,
+                    "url": "https://t.co/92IAwirHyM",
+                    "expanded_url": "https://cnn.it/3HjrL1U",
+                    "display_url": "cnn.it/3HjrL1U",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651314312143577092/nD7TzSOf?format=jpg&name=orig",
+                            "width": 800,
+                            "height": 450
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651314312143577092/nD7TzSOf?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "Elizabeth Holmes delays start of prison sentence with last-minute appeal | CNN Business",
+                    "description": "Elizabeth Holmes won't be starting her 11-year prison sentence just yet.",
+                    "unwound_url": "https://www.cnn.com/2023/04/26/tech/holmes-prison-delay-appeal/index.html?utm_content=2023-04-27T03%3A00%3A12&utm_term=link&utm_medium=social&utm_source=twCNN"
+                }
+            ]
+        },
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "974016503652614144",
+                    "name": "Elizabeth Holmes",
+                    "description": "Elizabeth Holmes"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697121477832705",
+                    "name": "Publisher & News Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to  marketing and advertiser agencies, publishers of magazines, newspapers, blogs, books"
+                }
+            },
+            {
+                "domain": {
+                    "id": "45",
+                    "name": "Brand Vertical",
+                    "description": "Top level entities that describe a Brands industry"
+                },
+                "entity": {
+                    "id": "781974597310615553",
+                    "name": "Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "781974597105094656",
+                    "name": "TV/Movies Related - Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447117297905665",
+                    "name": "News outlets"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1451358585376575499",
+                    "name": "NZ roadmap"
+                }
+            }
+        ],
+        "id": "1651420971046256640",
+        "created_at": "2023-04-27T03:00:16.000Z",
+        "text": "Elizabeth Holmes won't be starting her 11-year prison sentence just yet. https://t.co/92IAwirHyM",
+        "edit_history_tweet_ids": [
+            "1651420971046256640"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 130,
+                    "end": 153,
+                    "url": "https://t.co/lSOQpiSTBe",
+                    "expanded_url": "https://cnn.it/3Vc37pQ",
+                    "display_url": "cnn.it/3Vc37pQ",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651304642184183809/-bKO09uf?format=jpg&name=orig",
+                            "width": 800,
+                            "height": 450
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651304642184183809/-bKO09uf?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "First Republic may not survive, even after two multibillion-dollar bailouts | CNN Business",
+                    "description": "First Republic Bank is in a fight for its survival.",
+                    "unwound_url": "https://www.cnn.com/2023/04/26/investing/first-republic-bank-survival-options/index.html?utm_medium=social&utm_source=twCNN&utm_content=2023-04-27T02%3A45%3A02&utm_term=link"
+                }
+            ]
+        },
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697121477832705",
+                    "name": "Publisher & News Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to  marketing and advertiser agencies, publishers of magazines, newspapers, blogs, books"
+                }
+            },
+            {
+                "domain": {
+                    "id": "156",
+                    "name": "Cities",
+                    "description": "Cities around the world"
+                },
+                "entity": {
+                    "id": "908354585005146113",
+                    "name": "San Francisco",
+                    "description": "San Francisco"
+                }
+            },
+            {
+                "domain": {
+                    "id": "45",
+                    "name": "Brand Vertical",
+                    "description": "Top level entities that describe a Brands industry"
+                },
+                "entity": {
+                    "id": "781974597310615553",
+                    "name": "Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "781974597105094656",
+                    "name": "TV/Movies Related - Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447117297905665",
+                    "name": "News outlets"
+                }
+            },
+            {
+                "domain": {
+                    "id": "69",
+                    "name": "News Vertical",
+                    "description": "News Categories like Entertainment or Technology"
+                },
+                "entity": {
+                    "id": "1003932601839579136",
+                    "name": "US national news",
+                    "description": "US National News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1003932601839579136",
+                    "name": "US national news",
+                    "description": "US National News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1451358585376575499",
+                    "name": "NZ roadmap"
+                }
+            }
+        ],
+        "id": "1651417156528029696",
+        "created_at": "2023-04-27T02:45:06.000Z",
+        "text": "The past few weeks have been brutal for the San Francisco-based lender. Now some analysts say a collapse of the bank is imminent. https://t.co/lSOQpiSTBe",
+        "edit_history_tweet_ids": [
+            "1651417156528029696"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 53,
+                    "end": 76,
+                    "url": "https://t.co/G1Fad9hb23",
+                    "expanded_url": "https://twitter.com/CNN/status/1651413412209999873/video/1",
+                    "display_url": "pic.twitter.com/G1Fad9hb23",
+                    "media_key": "13_1651310672335052800"
+                }
+            ],
+            "annotations": [
+                {
+                    "start": 3,
+                    "end": 9,
+                    "probability": 0.9733,
+                    "type": "Place",
+                    "normalized_text": "Senegal"
+                }
+            ]
+        },
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696888568045569",
+                    "name": "Food & Beverage Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent and related to foods & beverages such as snacks, soft drinks, beers."
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696940178935808",
+                    "name": "Gaming Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to offline and online games such as gaming consoles, tabletop games, video game publishers"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697121477832705",
+                    "name": "Publisher & News Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to  marketing and advertiser agencies, publishers of magazines, newspapers, blogs, books"
+                }
+            },
+            {
+                "domain": {
+                    "id": "45",
+                    "name": "Brand Vertical",
+                    "description": "Top level entities that describe a Brands industry"
+                },
+                "entity": {
+                    "id": "781974597310615553",
+                    "name": "Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "781974597105094656",
+                    "name": "TV/Movies Related - Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447117297905665",
+                    "name": "News outlets"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1451358585376575499",
+                    "name": "NZ roadmap"
+                }
+            }
+        ],
+        "id": "1651413412209999873",
+        "created_at": "2023-04-27T02:30:13.000Z",
+        "text": "In Senegal, entrepreneurs are making a social impact https://t.co/G1Fad9hb23",
+        "edit_history_tweet_ids": [
+            "1651413412209999873"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 265,
+                    "end": 288,
+                    "url": "https://t.co/YkfTp7A14l",
+                    "expanded_url": "https://twitter.com/CNN/status/1651409964102037505/video/1",
+                    "display_url": "pic.twitter.com/YkfTp7A14l",
+                    "media_key": "13_1651408120894173186"
+                }
+            ],
+            "mentions": [
+                {
+                    "start": 220,
+                    "end": 230,
+                    "username": "scontorno",
+                    "id": "17824322"
+                },
+                {
+                    "start": 237,
+                    "end": 252,
+                    "username": "andersoncooper",
+                    "id": "15224867"
+                }
+            ]
+        },
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "966044190709710848",
+                    "name": "Ron DeSantis",
+                    "description": "US Representative Ron DeSantis (FL-06)"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "966044190709710848",
+                    "name": "Ron DeSantis",
+                    "description": "US Representative Ron DeSantis (FL-06)"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696802391859201",
+                    "name": "Entertainment & Leisure Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to movies, music, television, franchises, venues, theme parks, toys, tourism, hotels"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697121477832705",
+                    "name": "Publisher & News Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to  marketing and advertiser agencies, publishers of magazines, newspapers, blogs, books"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697439489880065",
+                    "name": "Travel & Transportation Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to travel as airlines, travel agencies, hotels"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1575491918854619139",
+                    "name": "Amusement Park"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "1172175186621108224",
+                    "name": "Walt Disney World Resort"
+                }
+            },
+            {
+                "domain": {
+                    "id": "69",
+                    "name": "News Vertical",
+                    "description": "News Categories like Entertainment or Technology"
+                },
+                "entity": {
+                    "id": "1298002530362773504",
+                    "name": "US Political News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "966044190709710848",
+                    "name": "Ron DeSantis",
+                    "description": "US Representative Ron DeSantis (FL-06)"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1172175186621108224",
+                    "name": "Walt Disney World Resort"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1298002530362773504",
+                    "name": "US Political News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808679201880477696",
+                    "name": "Anderson Cooper",
+                    "description": "Anderson Cooper"
+                }
+            },
+            {
+                "domain": {
+                    "id": "45",
+                    "name": "Brand Vertical",
+                    "description": "Top level entities that describe a Brands industry"
+                },
+                "entity": {
+                    "id": "781974597310615553",
+                    "name": "Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "781974597105094656",
+                    "name": "TV/Movies Related - Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10037284711",
+                    "name": "Disney"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "839159814991167489",
+                    "name": "Travel",
+                    "description": "Travel"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857603051657482241",
+                    "name": "Destinations",
+                    "description": "Destinations"
+                }
+            },
+            {
+                "domain": {
+                    "id": "67",
+                    "name": "Interests and Hobbies",
+                    "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+                },
+                "entity": {
+                    "id": "849077981351821312",
+                    "name": "Theme parks",
+                    "description": "Theme parks"
+                }
+            },
+            {
+                "domain": {
+                    "id": "94",
+                    "name": "Journalist",
+                    "description": "A journalist like 'Anderson Cooper'"
+                },
+                "entity": {
+                    "id": "808679201880477696",
+                    "name": "Anderson Cooper",
+                    "description": "Anderson Cooper"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10037284711",
+                    "name": "Disney"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808679201880477696",
+                    "name": "Anderson Cooper",
+                    "description": "Anderson Cooper"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "849077981351821312",
+                    "name": "Theme parks",
+                    "description": "Theme parks"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1074755369530880001",
+                    "name": "Journalists",
+                    "description": "Journalism"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447117297905665",
+                    "name": "News outlets"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447585004736512",
+                    "name": "Entertainment industry"
+                }
+            },
+            {
+                "domain": {
+                    "id": "159",
+                    "name": "States",
+                    "description": "States, provinces, or prefectures, like California or Fukushima Prefecture"
+                },
+                "entity": {
+                    "id": "855436277054750722",
+                    "name": "Florida",
+                    "description": "Florida"
+                }
+            },
+            {
+                "domain": {
+                    "id": "69",
+                    "name": "News Vertical",
+                    "description": "News Categories like Entertainment or Technology"
+                },
+                "entity": {
+                    "id": "1003932601839579136",
+                    "name": "US national news",
+                    "description": "US National News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1003932601839579136",
+                    "name": "US national news",
+                    "description": "US National News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1451358585376575499",
+                    "name": "NZ roadmap"
+                }
+            }
+        ],
+        "id": "1651409964102037505",
+        "created_at": "2023-04-27T02:16:31.000Z",
+        "text": "Walt Disney Parks and Resorts on Wednesday sued Florida Gov. Ron DeSantis and his hand-picked oversight board, accusing him of weaponizing his political power to punish the company for exercising its free speech rights. @scontorno joins @andersoncooper to discuss. https://t.co/YkfTp7A14l",
+        "edit_history_tweet_ids": [
+            "1651409964102037505"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 243,
+                    "end": 266,
+                    "url": "https://t.co/UkVXW9UO8p",
+                    "expanded_url": "https://cnn.it/3AviU9R",
+                    "display_url": "cnn.it/3AviU9R",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651289149918281737/ZaWJk4_g?format=jpg&name=orig",
+                            "width": 800,
+                            "height": 450
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651289149918281737/ZaWJk4_g?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "Trump lawyers rail against DOJ in letter, reveal foreign leader briefings may be among classified documents taken from White House | CNN Politics",
+                    "description": "Two of Donald Trump's defense lawyers now believe that classified briefings of phone calls with foreign leaders were among \"all manner of documents\" in 15 boxes that Trump returned to the National Archives a year after he left the presidency, according to a new letter his lawyers sent to Congress.",
+                    "unwound_url": "https://www.cnn.com/2023/04/26/politics/trump-foreign-leader-briefings-classified-documents/index.html?utm_medium=social&utm_source=twCNN&utm_content=2023-04-27T02%3A15%3A10&utm_term=link"
+                }
+            ]
+        },
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "799022225751871488",
+                    "name": "Donald Trump",
+                    "description": "45th US President, Donald Trump"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "799022225751871488",
+                    "name": "Donald Trump",
+                    "description": "45th US President, Donald Trump"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697121477832705",
+                    "name": "Publisher & News Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to  marketing and advertiser agencies, publishers of magazines, newspapers, blogs, books"
+                }
+            },
+            {
+                "domain": {
+                    "id": "69",
+                    "name": "News Vertical",
+                    "description": "News Categories like Entertainment or Technology"
+                },
+                "entity": {
+                    "id": "1298002530362773504",
+                    "name": "US Political News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "799022225751871488",
+                    "name": "Donald Trump",
+                    "description": "45th US President, Donald Trump"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1291447199595782144",
+                    "name": "United States politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1298002530362773504",
+                    "name": "US Political News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "45",
+                    "name": "Brand Vertical",
+                    "description": "Top level entities that describe a Brands industry"
+                },
+                "entity": {
+                    "id": "781974597310615553",
+                    "name": "Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "781974597105094656",
+                    "name": "TV/Movies Related - Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447117297905665",
+                    "name": "News outlets"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1124379225207656448",
+                    "name": "Trump says he discussed Venezuela and the Mueller report with Putin in an hour-long call",
+                    "description": "President Trump confirmed the call in a series of Tweets on Friday, adding that the political turmoil in Venezuela was also a subject of a phone conversation with Russia's Vladimir Putin. Referring to the report's conclusion that Russia interfered in the 2016 election while clearing the Trump campaign of conspiracy, Trump said he and Putin discussed the \"Russia Hoax.\""
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1451358585376575499",
+                    "name": "NZ roadmap"
+                }
+            }
+        ],
+        "id": "1651409641916563456",
+        "created_at": "2023-04-27T02:15:14.000Z",
+        "text": "Two of Donald Trump's defense lawyers now believe that classified briefings of phone calls with foreign leaders were among \"all manner of documents\" in 15 boxes that Trump returned to the National Archives a year after he left the presidency. https://t.co/UkVXW9UO8p",
+        "edit_history_tweet_ids": [
+            "1651409641916563456"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 199,
+                    "end": 222,
+                    "url": "https://t.co/67vuN5QM5t",
+                    "expanded_url": "https://cnn.it/3LyoWg3",
+                    "display_url": "cnn.it/3LyoWg3",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651299745787420677/c6MTEZIK?format=jpg&name=orig",
+                            "width": 800,
+                            "height": 450
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651299745787420677/c6MTEZIK?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "Adding exercise into treatment may reduce substance use, study shows | CNN",
+                    "description": "A review of 43 studies has shown there is a link between physical activity and a reduction or cessation of substance use. Experts explain how that works and how to incorporate it into your own life.",
+                    "unwound_url": "https://www.cnn.com/2023/04/26/health/physical-activity-addiction-wellness/index.html?utm_term=link&utm_content=2023-04-27T02%3A00%3A07&utm_medium=social&utm_source=twCNN"
+                }
+            ]
+        },
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697121477832705",
+                    "name": "Publisher & News Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to  marketing and advertiser agencies, publishers of magazines, newspapers, blogs, books"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697289971322880",
+                    "name": "Sports & Fitness Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to sports nutrition, athletic apparel, sports apps, fitness venues"
+                }
+            },
+            {
+                "domain": {
+                    "id": "45",
+                    "name": "Brand Vertical",
+                    "description": "Top level entities that describe a Brands industry"
+                },
+                "entity": {
+                    "id": "781974597310615553",
+                    "name": "Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "781974597105094656",
+                    "name": "TV/Movies Related - Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847872878041219072",
+                    "name": "Fitness",
+                    "description": "Exercise and fitness"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447117297905665",
+                    "name": "News outlets"
+                }
+            },
+            {
+                "domain": {
+                    "id": "162",
+                    "name": "Exercise & fitness",
+                    "description": "for types of exercises& fitness and moves, e.g., yoga, crunches, squats "
+                },
+                "entity": {
+                    "id": "872554146750017536",
+                    "name": "Exercises",
+                    "description": "Exercises"
+                }
+            },
+            {
+                "domain": {
+                    "id": "6",
+                    "name": "Sports Event"
+                },
+                "entity": {
+                    "id": "1631808186574417920",
+                    "name": "Chennai Super Kings vs Lucknow Super Giants"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1451358585376575499",
+                    "name": "NZ roadmap"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1631808186574417920",
+                    "name": "Chennai Super Kings vs Lucknow Super Giants"
+                }
+            },
+            {
+                "domain": {
+                    "id": "83",
+                    "name": "Cricket Match",
+                    "description": "Sports Event specific to Cricket matches"
+                },
+                "entity": {
+                    "id": "1631808186574417920",
+                    "name": "Chennai Super Kings vs Lucknow Super Giants"
+                }
+            }
+        ],
+        "id": "1651405852434112513",
+        "created_at": "2023-04-27T02:00:11.000Z",
+        "text": "A review of 43 studies has shown there is a link between physical activity and a reduction or cessation of substance use. Experts explain how that works and how to incorporate it into your own life. https://t.co/67vuN5QM5t",
+        "edit_history_tweet_ids": [
+            "1651405852434112513"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 153,
+                    "end": 176,
+                    "url": "https://t.co/oo8K7ZzX61",
+                    "expanded_url": "https://cnn.it/42418G6",
+                    "display_url": "cnn.it/42418G6",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651288422760185858/4rX7m1mo?format=jpg&name=orig",
+                            "width": 800,
+                            "height": 450
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651288422760185858/4rX7m1mo?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "Taylor Swift fans show support for fan killed by a drunken driver after Houston concert | CNN",
+                    "description": "Taylor Swift fans have rallied in support of a fellow fan who was killed early Saturday after leaving Swift's Houston concert.",
+                    "unwound_url": "https://www.cnn.com/2023/04/26/us/taylor-swift-fan-died-car-crash-gofundme/index.html?utm_source=twCNN&utm_medium=social&utm_content=2023-04-27T01%3A45%3A04&utm_term=link"
+                }
+            ],
+            "annotations": [
+                {
+                    "start": 1,
+                    "end": 5,
+                    "probability": 0.5593,
+                    "type": "Person",
+                    "normalized_text": "Jacob"
+                }
+            ]
+        },
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697121477832705",
+                    "name": "Publisher & News Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to  marketing and advertiser agencies, publishers of magazines, newspapers, blogs, books"
+                }
+            },
+            {
+                "domain": {
+                    "id": "45",
+                    "name": "Brand Vertical",
+                    "description": "Top level entities that describe a Brands industry"
+                },
+                "entity": {
+                    "id": "781974597310615553",
+                    "name": "Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "781974597105094656",
+                    "name": "TV/Movies Related - Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447117297905665",
+                    "name": "News outlets"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1451358585376575499",
+                    "name": "NZ roadmap"
+                }
+            }
+        ],
+        "id": "1651402065577492482",
+        "created_at": "2023-04-27T01:45:08.000Z",
+        "text": "\u201cJacob was able to shine and spread happiness to everyone he met. He figured out a different way to let each person have a special connection with him.\u201d https://t.co/oo8K7ZzX61",
+        "edit_history_tweet_ids": [
+            "1651402065577492482"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 115,
+                    "end": 138,
+                    "url": "https://t.co/n7jiyKwzXp",
+                    "expanded_url": "https://cnn.it/40Jv75p",
+                    "display_url": "cnn.it/40Jv75p",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651233521111842818/AUVQtAKD?format=jpg&name=orig",
+                            "width": 800,
+                            "height": 450
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651233521111842818/AUVQtAKD?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "Harry Belafonte's complicated relationship with the civil rights movement | CNN",
+                    "description": "Harry Belafonte, who died Tuesday at the age of 96, was an activist long before he became an artist, he once said.",
+                    "unwound_url": "https://www.cnn.com/2023/04/26/us/harry-belafonte-civil-rights-movement-reaj/index.html?utm_source=twCNN&utm_medium=social&utm_content=2023-04-27T01%3A30%3A10&utm_term=link"
+                }
+            ]
+        },
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697121477832705",
+                    "name": "Publisher & News Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to  marketing and advertiser agencies, publishers of magazines, newspapers, blogs, books"
+                }
+            },
+            {
+                "domain": {
+                    "id": "45",
+                    "name": "Brand Vertical",
+                    "description": "Top level entities that describe a Brands industry"
+                },
+                "entity": {
+                    "id": "781974597310615553",
+                    "name": "Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "781974597105094656",
+                    "name": "TV/Movies Related - Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040667043",
+                    "name": "CNN"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447117297905665",
+                    "name": "News outlets"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1451358585376575499",
+                    "name": "NZ roadmap"
+                }
+            }
+        ],
+        "id": "1651398315915857920",
+        "created_at": "2023-04-27T01:30:14.000Z",
+        "text": "Harry Belafonte, who died Tuesday at the age of 96, was an activist long before he became an artist, he once said. https://t.co/n7jiyKwzXp",
+        "edit_history_tweet_ids": [
+            "1651398315915857920"
+        ]
+    }
+]

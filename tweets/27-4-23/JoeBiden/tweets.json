@@ -1,0 +1,919 @@
+[
+    {
+        "id": "1651396242893594625",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "848989123461365760",
+                    "name": "United States Healthcare System",
+                    "description": "Conversation about US Healthcare"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "900740740468191232",
+                    "name": "Political issues",
+                    "description": "Political issues"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "text": "MAGA extremists are telling women what health care choices they are allowed to make. \n\nThey\u2019re telling you what books should be in your kids\u2019 schools. \n\nAnd if you don\u2019t like it, tough luck: They\u2019re going after your right to vote, too. \n\nThat\u2019s not who we are.",
+        "created_at": "2023-04-27T01:22:00.000Z",
+        "edit_history_tweet_ids": [
+            "1651396242893594625"
+        ]
+    },
+    {
+        "id": "1651303133031563286",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "text": "There\u2019s a choice ahead of us. Will we continue to build a future full of opportunities for you and families like yours? Or will we turn the clock back? \n\nHere\u2019s the honest truth: I\u2019m more optimistic than I\u2019ve ever been. There is nothing beyond our capacity if we do it together.",
+        "created_at": "2023-04-26T19:12:01.000Z",
+        "edit_history_tweet_ids": [
+            "1651303133031563286"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 166,
+                    "end": 189,
+                    "url": "https://t.co/Vl8NP4iZjJ",
+                    "expanded_url": "http://JoeBiden.com/share",
+                    "display_url": "JoeBiden.com/share",
+                    "status": 200,
+                    "title": "Thank you & Share - Joe Biden for President: Official Campaign Website",
+                    "description": "Together, we can finish the job for the American people. Are you with us? Join our campaign to re-elect Joe Biden today!",
+                    "unwound_url": "https://joebiden.com/share/"
+                }
+            ]
+        },
+        "id": "1651288799064752136",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "text": "Our campaign will be powered by folks talking to friends, family, and communities about what is at stake in this election. I need you behind me. \n\nGet started today: https://t.co/Vl8NP4iZjJ",
+        "created_at": "2023-04-26T18:15:03.000Z",
+        "edit_history_tweet_ids": [
+            "1651288799064752136"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 274,
+                    "end": 297,
+                    "url": "https://t.co/RvPc51xqRz",
+                    "expanded_url": "https://twitter.com/JoeBiden/status/1651287240176197634/video/1",
+                    "display_url": "pic.twitter.com/RvPc51xqRz",
+                    "media_key": "13_1651286603535466497"
+                }
+            ]
+        },
+        "id": "1651287240176197634",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696940178935808",
+                    "name": "Gaming Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to offline and online games such as gaming consoles, tabletop games, video game publishers"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            },
+            {
+                "domain": {
+                    "id": "6",
+                    "name": "Sports Event"
+                },
+                "entity": {
+                    "id": "1631808186574417920",
+                    "name": "Chennai Super Kings vs Lucknow Super Giants"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1631808186574417920",
+                    "name": "Chennai Super Kings vs Lucknow Super Giants"
+                }
+            },
+            {
+                "domain": {
+                    "id": "83",
+                    "name": "Cricket Match",
+                    "description": "Sports Event specific to Cricket matches"
+                },
+                "entity": {
+                    "id": "1631808186574417920",
+                    "name": "Chennai Super Kings vs Lucknow Super Giants"
+                }
+            }
+        ],
+        "text": "Every generation of Americans has faced a moment where they have been called on to protect our democracy, to defend it, to stand up for it.\n\nAnd this is our moment.\n\nWatch the very first ad of our reelection campaign \u2014 then, pitch in to help share our message far and wide. https://t.co/RvPc51xqRz",
+        "created_at": "2023-04-26T18:08:52.000Z",
+        "edit_history_tweet_ids": [
+            "1651287240176197634"
+        ]
+    },
+    {
+        "id": "1651251056779640833",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "text": "Freedom is more than a value. It\u2019s who we are.\n\nThat\u2019s been the work of my first term: To protect your rights. To put more money in your pocket. To bring down costs.\n\nBut MAGA Republicans are lining up to roll this progress back. We can stop them if we do it together.",
+        "created_at": "2023-04-26T15:45:05.000Z",
+        "edit_history_tweet_ids": [
+            "1651251056779640833"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 22,
+                    "end": 45,
+                    "url": "https://t.co/mnj1m6NKHV",
+                    "expanded_url": "https://twitter.com/JoeBiden/status/1651050320875716609/video/1",
+                    "display_url": "pic.twitter.com/mnj1m6NKHV",
+                    "media_key": "13_1651050214474514434"
+                }
+            ]
+        },
+        "id": "1651050320875716609",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "text": "Let\u2019s finish the job. https://t.co/mnj1m6NKHV",
+        "created_at": "2023-04-26T02:27:26.000Z",
+        "edit_history_tweet_ids": [
+            "1651050320875716609"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 18,
+                    "end": 41,
+                    "url": "https://t.co/VJ65GZRnuP",
+                    "expanded_url": "https://twitter.com/JoeBiden/status/1651032618694000641/photo/1",
+                    "display_url": "pic.twitter.com/VJ65GZRnuP",
+                    "media_key": "3_1651032597609304064"
+                }
+            ]
+        },
+        "id": "1651032618694000641",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "text": "In this together. https://t.co/VJ65GZRnuP",
+        "created_at": "2023-04-26T01:17:05.000Z",
+        "edit_history_tweet_ids": [
+            "1651032618694000641"
+        ]
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 254,
+                    "end": 277,
+                    "url": "https://t.co/OFQQt1xu7L",
+                    "expanded_url": "https://secure.actblue.com/donate/social-bfp_launch-apr-2023?refcode=social_20230425_jb_tw_3",
+                    "display_url": "secure.actblue.com/donate/social-\u2026",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651013725866938370/DGF8UVKV?format=jpg&name=orig",
+                            "width": 1024,
+                            "height": 512
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651013725866938370/DGF8UVKV?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "Donate to reelect Joe Biden and Kamala Harris",
+                    "description": "Pitch in to help deliver Joe and Kamala four more years in the White House.",
+                    "unwound_url": "https://secure.actblue.com/donate/social-bfp_launch-apr-2023?refcode=social_20230425_jb_tw_3"
+                }
+            ],
+            "annotations": [
+                {
+                    "start": 65,
+                    "end": 68,
+                    "probability": 0.3705,
+                    "type": "Organization",
+                    "normalized_text": "MAGA"
+                }
+            ]
+        },
+        "id": "1651013723014803456",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "text": "I\u2019m running for reelection to do more than turn back the tide of MAGA extremism. \n\nI want to make our economy work for families like yours: the hard-working folks who are the backbone of this country. \n\nIf you\u2019re in, pitch in $5 to support our campaign. https://t.co/OFQQt1xu7L",
+        "created_at": "2023-04-26T00:02:00.000Z",
+        "edit_history_tweet_ids": [
+            "1651013723014803456"
+        ]
+    },
+    {
+        "id": "1650996361817382918",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847511168268644352",
+                    "name": "Global Economy",
+                    "description": "Conversation about global finance and economies."
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "848989123461365760",
+                    "name": "United States Healthcare System",
+                    "description": "Conversation about US Healthcare"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "900740740468191232",
+                    "name": "Political issues",
+                    "description": "Political issues"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "text": "MAGA extremists are trying to gut Social Security and Medicare.\n\nThey\u2019re trying to raise the cost of insulin again, all while saying we\u2019ve got plenty of money to cut taxes for the rich. \n\nI have a different view.",
+        "created_at": "2023-04-25T22:53:01.000Z",
+        "edit_history_tweet_ids": [
+            "1650996361817382918"
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 3,
+                    "probability": 0.3462,
+                    "type": "Organization",
+                    "normalized_text": "MAGA"
+                }
+            ]
+        }
+    },
+    {
+        "entities": {
+            "urls": [
+                {
+                    "start": 246,
+                    "end": 269,
+                    "url": "https://t.co/Vl8NP4iZjJ",
+                    "expanded_url": "http://JoeBiden.com/share",
+                    "display_url": "JoeBiden.com/share",
+                    "status": 200,
+                    "title": "Thank you & Share - Joe Biden for President: Official Campaign Website",
+                    "description": "Together, we can finish the job for the American people. Are you with us? Join our campaign to re-elect Joe Biden today!",
+                    "unwound_url": "https://joebiden.com/share/"
+                }
+            ]
+        },
+        "id": "1650935215726927873",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "text": "We are in a battle for the soul of this nation. Will we, in four years, have more rights or fewer?\n\nI know what I want the answer to be. And I need you with me, talking to your friends, neighbors and communities about what\u2019s at stake. \n\nJoin us: https://t.co/Vl8NP4iZjJ",
+        "created_at": "2023-04-25T18:50:02.000Z",
+        "edit_history_tweet_ids": [
+            "1650935215726927873"
+        ]
+    }
+]

@@ -1,0 +1,874 @@
+---
+title: "Twitter influencers' influence on their followers' behaviour"
+author: Siu Yat Fung (3036065185)
+date: April 30, 2023
+output:
+    beamer_presentation:
+        theme: "AnnArbor"
+        slide_level: 4
+fontsize: 9pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE)
+knitr::opts_chunk$set(include = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = FALSE) 
+```
+
+```{r}
+# Load libraries
+library(tidyverse)
+library(lubridate)
+library(rjson)
+library(glue)
+library(tidytext)
+library(textdata)
+library(data.table)
+```
+
+```{r}
+# Load sentiment datasets
+nrc <- get_sentiments("nrc")
+afinn <- get_sentiments("afinn")
+```
+
+```{r}
+# Functions
+
+## Fomat tweets
+use_datetime_object <- function(tweets) {
+    tweets |>
+        mutate(created_at = as_datetime(created_at))
+}
+remove_url <- function(tweets) {
+    tweets |>
+        mutate(text = str_replace_all(text, "\\bhttps://.*\\b", ""))
+}
+tokenize <- function(influencer, tweets, role) {
+    tweets[[influencer]] |>
+        select(created_at, text) |>
+        mutate(role = role, by = influencer) |>
+        unnest_tokens(word, text) |>
+        filter(!word %in% stop_words$word)
+}
+
+## Compare against sentiment datasets
+nrc_sentiment <- function(tweets) {
+    tweets |>
+        left_join(nrc, by = "word", relationship = "many-to-many") |>
+        mutate(sentiment = replace_na(sentiment, replace = "none"))
+}
+afinn_sentiment <- function(tweets) {
+    tweets |>
+        left_join(afinn, by = "word", relationship = "many-to-many") |>
+        mutate(sentiment = replace_na(value, replace = 0)) |>
+        group_by(created_at) |>
+        reframe(sentiment = mean(sentiment), by = by, role = role) |>
+        distinct()
+}
+
+## Afinn
+afinn_throughout_7_days <- function(user_afinn, follower_afinn) {
+    reduce(follower_afinn, rbind) |>
+        arrange(role) |>
+        ggplot(aes(x = created_at, y = sentiment, color = role)) +
+            geom_line() +
+            geom_point(data = reduce(user_afinn, rbind)) +
+            facet_wrap(vars(by)) +
+            ggtitle("Sentiment values of follower tweets in 7 days") |>
+        invisible()
+}
+afinn_time_period_within_pos_neg_5hr <- function(influencer, user_afinn, follower_afinn) {
+    create_groups <- function(out, influencer) {
+        dates <- user_afinn[[influencer]]$created_at
+        groups <- reduce(dates, function(out, d) {
+            lower_time <- d - hours(5)
+            upper_time <- d + hours(5)
+            tweets_in_period <- follower_afinn[[influencer]] |>
+                filter(created_at > lower_time & created_at < upper_time) |>
+                mutate(corresponding = d)
+            rbind(out, tweets_in_period)
+        }, .init = data.frame())
+        rbind(out, groups)
+    }
+    grouped <- reduce(influencers, create_groups, .init = data.frame())
+    u <- user_afinn[[influencer]] |> mutate(corresponding = created_at)
+    grouped |>
+        filter(by == influencer) |>
+        ggplot(aes(x = created_at, y = sentiment, color = role)) +
+            geom_line() +
+            geom_point(data = u) +
+            facet_wrap(vars(corresponding), scales = "free_x") +
+            ggtitle(glue("Sentiment values of {influencer} follower tweets within +-5hr time period"))
+}
+
+afinn_every_2hr <- function(influencers, influencers_tweets, follower_words) {
+    lapply(influencers, function(influencer) {
+        tweet_afinn <- follower_words[[influencer]] |>
+            left_join(afinn, by = "word", relationship = "many-to-many") |>
+            mutate(sentiment = replace_na(value, replace = 0))
+        influencers_tweets[[influencer]]$created_at |>
+            lapply(function(d) {
+                start <- d - hours(5)
+                end <- d + hours(5)
+                i <- c()
+                while (start <= end) {
+                    i <- append(i, start)
+                    start <- start + hours(2)
+                }
+                i |>
+                lapply(function(timestamp) {
+                    tweet_afinn |>
+                        filter(created_at >= timestamp & created_at < (timestamp + hours(2))) |>
+                        mutate(timestamp = timestamp, corresponding = d) |>
+                        reframe(timestamp, corresponding, role, by, sentiment = mean(sentiment)) |>
+                        distinct()
+                })
+            }) |>
+            list_flatten()
+    }) |>
+    list_flatten() |>
+    rbindlist()
+}
+
+plot_afinn_10hr_every_2hr <- function(influencers, influencers_afinn, follower_afinn_2hr) {
+    influencers |> lapply(function(influencer) {
+        u <- influencers_afinn[[influencer]] |>
+            mutate(corresponding = created_at, timestamp = created_at, role = "user")
+        follower_afinn_2hr |>
+            filter(by == influencer) |>
+            ggplot(aes(x = timestamp, y = sentiment, color = role)) +
+                geom_line() +
+                geom_point(data = u) +
+                facet_wrap(vars(corresponding), scales = "free_x") +
+                ggtitle(glue("Sentiment values of {influencer} follower tweets within +-5hr time period every 2hrs")) |>
+            invisible()
+    })
+}
+
+## NRC
+nrc_time_period_within_pos_neg_5hr <- function(influencers, user_nrc, follower_nrc) {
+    create_groups <- function(influencer) {
+        user_nrc[[influencer]]$created_at |>
+            as.data.frame() |>
+            distinct() |>
+            pull(1) |>
+            lapply(function(d) {
+                lower_time <- d - hours(5)
+                upper_time <- d + hours(5)
+                follower_nrc[[influencer]] |>
+                    filter(between(created_at, lower_time, upper_time)) |>
+                    mutate(corresponding = d)
+            })
+    }
+    lapply(influencers, create_groups) |>
+        list_flatten() |>
+        rbindlist()
+}
+
+nrc_prop <- function(tweet_nrc) {
+    tweet_nrc |> 
+        filter(!(sentiment %in% c("none", "positive", "negative"))) |>
+        group_by(by, corresponding, created_at, sentiment) |>
+        summarize(count = length(sentiment)) |>
+        ungroup(sentiment) |>
+        mutate(proportion = count / sum(count))
+}
+
+plot_nrc_10hr <- function(influencer, tweet_nrc_prop, grouped_nrc) {
+    u <- tweet_nrc_prop[[influencer]] |>
+        mutate(corresponding = created_at)
+    grouped_nrc |>
+        filter(by == influencer) |>
+        ggplot(aes(x = created_at, y = proportion, color = sentiment)) +
+            geom_line() +
+            geom_point(data = u) + #FIXME: can't see the points. use black edge?
+            facet_wrap(vars(corresponding), scales = "free_x") +
+            ggtitle(glue("Proportion of emotions in tweets of {influencer} followers in +-5hr period"))
+}
+
+nrc_every_2hr <- function(influencers, follower_nrc, influencers_tweets) {
+    lapply(influencers, function(influencer) {
+        tweet_afinn <- follower_nrc[[influencer]] |>
+            filter(!(sentiment %in% c("none", "positive", "negative")))
+
+        influencers_tweets[[influencer]]$created_at |>
+            lapply(function(d) {
+                start <- d - hours(5)
+                end <- d + hours(5)
+                i <- c()
+                while (start <= end) {
+                    i <- append(i, start)
+                    start <- start + hours(2)
+                }
+                i |>
+                lapply(function(timestamp) {
+                    tweet_afinn |>
+                        filter(created_at >= timestamp & created_at < (timestamp + hours(2))) |>
+                        mutate(timestamp = timestamp, corresponding = d)
+                })
+            }) |>
+            list_flatten()
+    }) |>
+    list_flatten() |>
+    rbindlist() |>
+    group_by(by, corresponding, timestamp, role, sentiment) |>
+    summarize(count = length(sentiment)) |>
+    ungroup(sentiment) |>
+    summarize(proportion = count / sum(count), sentiment)
+}
+
+plot_nrc_10hr_every_2hr <- function(influencer, tweet_nrc, follower_2hr) {
+    u <- tweet_nrc[[influencer]] |>
+        filter(!(sentiment %in% c("none", "positive", "negative"))) |>
+        mutate(corresponding = created_at, timestamp = created_at, role = "user") |>
+        group_by(created_at, sentiment) |>
+        summarize(count = length(sentiment), corresponding, timestamp) |>
+        ungroup(sentiment) |>
+        summarize(proportion = count / sum(count), sentiment, corresponding, timestamp)
+    follower_2hr |>
+        filter(by == influencer) |>
+        ggplot(aes(x = timestamp, y = proportion, color = sentiment)) +
+            geom_line() +
+            geom_point(data = u) +
+            facet_wrap(vars(corresponding), scales = "free_x") +
+            ggtitle(glue("Proportion of emotions in tweets of {influencer} followers in +-5hr period averaged every 2hrs"))
+}
+
+## Entities
+get_entities <- function(tweets) {
+    tweets |>
+        select(-matches("context_annotations|entities.urls|start|end|probability|type|mentions|withheld|cashtags"), -edit_history_tweet_ids) |>
+        pivot_longer(-c("created_at", "id", "text"), values_to = "entity", values_drop_na = TRUE) |>
+        select(-name)
+}
+
+cal_entity_appearance <- function(influencers, follower_entities, tweet_entities) {
+    lapply(influencers, function(influencer) {
+        follower_entities <- follower_entities[[influencer]] |>
+            mutate(by = influencer)
+        start_time <- follower_entities$created_at |> min()
+        end_time <- follower_entities$created_at |> max()
+        timestamps <- c()
+        while (start_time <= end_time) {
+            timestamps <- append(timestamps, start_time)
+            start_time <- start_time + hours(1)
+        }
+        groups <- lapply(timestamps, function(t) {
+                follower_entities |>
+                    filter(between(created_at, t, t + hours(1))) |>
+                    mutate(timestamp = t)
+            }) |>
+            rbindlist() |>
+            group_by(timestamp)
+        lapply(tweet_entities[[influencer]]$entity, function(e) {
+            groups |>
+                summarize(chance = sum(entity == e) / length(entity), by) |>
+                mutate(entity = e)
+
+        })
+    }) |>
+    list_flatten() |>
+    rbindlist()
+}
+
+plot_entity_every_1hr <- function(influencers, entity_appearance) {
+    entity_appearance |>
+        ggplot(aes(x = timestamp, y = chance, color = entity)) +
+            geom_line() +
+            facet_wrap(vars(by)) +
+            ggtitle("Chance of entities from influencers appearing in follower tweet every hour")
+}
+
+cal_entity_appearance_acc_1hr <- function(influencers, follower_entities, influencers_tweets, tweet_entities) {
+    lapply(influencers, function(influencer) {
+        follower_entities <- follower_entities[[influencer]] |>
+            mutate(by = influencer)
+        start_time <- follower_entities$created_at |> min()
+        end_time <- follower_entities$created_at |> max()
+        timestamps <- c()
+        while (start_time <= end_time) {
+            timestamps <- append(timestamps, start_time)
+            start_time <- start_time + hours(1)
+        }
+        lapply(timestamps, function(t) {
+            u_start_time <- influencers_tweets[[influencer]]$created_at |> min()
+            u_entities <- tweet_entities[[influencer]] |>
+                filter(between(created_at, u_start_time, t + hours(1)))
+            follower_entities |>
+                filter(between(created_at, t, t + hours(1))) |>
+                mutate(timestamp = t, by = influencer) |>
+                summarize(chance = sum(entity %in% u_entities$entity) / length(entity), timestamp, by)
+        }) |>
+        rbindlist()
+    }) |>
+    rbindlist()
+}
+
+plot_entity_acc_every_1hr <- function(entity_appearance) {
+    entity_appearance |>
+        ggplot(aes(x = timestamp, y = chance)) +
+            geom_line() +
+            facet_wrap(vars(by)) +
+            ggtitle("Chance of any entities found in follower tweets only after influencer tweeted the entity")
+}
+
+## Context
+get_contexts <- function(tweets) {
+    tweets |>
+        select(-matches("entities|domain\\.|entity\\.id|entity\\.description|withheld"), -edit_history_tweet_ids) |>
+        pivot_longer(-c("created_at", "id", "text"), values_to = "context", values_drop_na = TRUE) |>
+        select(-name) |>
+        group_by(created_at) |>
+        distinct(context, .keep_all = TRUE) |>
+        ungroup(created_at)
+}
+
+cal_overall_context_appearance <- function(influencers, follower_context, tweet_context) {
+    lapply(influencers, function(influencer) {
+        follower_context <- follower_context[[influencer]] |>
+            mutate(by = influencer)
+        start_time <- follower_context$created_at |> min()
+        end_time <- follower_context$created_at |> max()
+        timestamps <- c()
+        while (start_time <= end_time) {
+            timestamps <- append(timestamps, start_time)
+            start_time <- start_time + hours(1)
+        }
+        lapply(timestamps, function(t) {
+            u_context <- tweet_context[[influencer]] |>
+                filter(between(created_at, t, t + hours(1)))
+            follower_context |>
+                filter(between(created_at, t, t + hours(1))) |>
+                mutate(timestamp = t, by = influencer) |>
+                summarize(chance = sum(context %in% u_context$context) / length(context), timestamp, by)
+        }) |>
+        rbindlist()
+    }) |>
+    rbindlist()
+}
+
+plot_overall_context_appearance <- function(overall_context_appearance) {
+    overall_context_appearance |>
+        ggplot(aes(x = timestamp, y = chance)) +
+            geom_line() +
+            facet_wrap(vars(by)) +
+            ggtitle("Chance of context found in follower tweets in 1 hour time frames")
+}
+
+cal_overall_context_appearance_acc <- function(influencers, follower_context, tweet_context) {
+    lapply(influencers, function(influencer) {
+        follower_context <- follower_context[[influencer]] |>
+            mutate(by = influencer)
+        start_time <- follower_context$created_at |> min()
+        end_time <- follower_context$created_at |> max()
+        timestamps <- c()
+        while (start_time <= end_time) {
+            timestamps <- append(timestamps, start_time)
+            start_time <- start_time + hours(1)
+        }
+        lapply(timestamps, function(t) {
+                u_start_time <- tweet_context[[influencer]]$created_at |>
+                    min()
+                u_context <- tweet_context[[influencer]] |>
+                    filter(between(created_at, u_start_time, t + hours(1)))
+                follower_context |>
+                    filter(between(created_at, t, t + hours(1))) |>
+                    mutate(timestamp = t, by = influencer) |>
+                    summarize(chance = sum(context %in% u_context$context) / length(context), timestamp, by)
+            }) |>
+            rbindlist()
+    }) |>
+    rbindlist()
+}
+
+plot_overall_context_appearance_acc <- function(overall_context_appearance) {
+    overall_context_appearance |>
+        ggplot(aes(x = timestamp, y = chance)) +
+            geom_line() +
+            facet_wrap(vars(by)) +
+            ggtitle("Chance of context appearing in follower tweets with context accumulated")
+}
+```
+
+# Background
+
+- 2016 US election
+- Twitter: platform to express ideology & attack opponent$^1$
+- Spread ideology by retweeting
+- Major factor triggering January 6 US Capitol attack$^2$
+
+---
+
+To what extent does Twitter influencers affect their followers' behaviour?
+
+# Methodology
+
+Analyse correlation of tweets between 4 Twitter influencers and their followers in terms of
+
+- afinn$^3$ values
+- nrc$^4$ emotions
+- entity appearance
+- context appearance
+
+# Data
+
+Retrieved tweets twice using Twitter API on 20-4-23 and 27-4-23
+
+1. Choose 4 accounts from Social Blade https://socialblade.com/twitter/top/100
+
+    - @CNN
+    - @elonmusk
+    - @HillaryClinton
+    - @JoeBiden
+
+2. Request 3000 followers for each influencer account
+3. request 5000 tweets for each set influencer account followers
+
+Total
+
+- 53053 followers
+- 65990 tweets
+
+# Results
+
+- Analysis performed twice
+- Retrieved on 20-4-23 and 27-4-23 separately
+
+## 20-4-23
+
+```{r}
+# Load JSONs
+date_r <- "20-4-23"
+influencers <- c("CNN", "elonmusk", "HillaryClinton", "JoeBiden")
+influencers.tweets <- sapply(influencers, function(influencer) {
+    fromJSON(file = glue("tweets/{date_r}/{influencer}/tweets.json")) |>
+        lapply(as.data.frame) |>
+        rbindlist(fill = TRUE)
+})
+influencers.followers.ids <- sapply(influencers, function(influencer) {
+    fromJSON(file = glue("tweets/{date_r}/{influencer}/followers.json")) |>
+        lapply(as.data.frame) |>
+        rbindlist(fill = TRUE)
+})
+influencers.followers.tweets <- sapply(influencers, function(influencer) {
+    fromJSON(file = glue("tweets/{date_r}/{influencer}/follower_tweets.json")) |>
+        lapply(as.data.frame) |>
+        rbindlist(fill = TRUE)
+})
+```
+
+```{r}
+# Format tweets
+influencers.tweets <- lapply(influencers.tweets, use_datetime_object)
+influencers.followers.tweets <- lapply(influencers.followers.tweets, use_datetime_object)
+
+influencers.tweets <- lapply(influencers.tweets, remove_url)
+influencers.followers.tweets <- lapply(influencers.followers.tweets, remove_url)
+
+influencers.tweets.words <- lapply(influencers, tokenize, influencers.tweets, "user")
+names(influencers.tweets.words) <- influencers
+influencers.followers.tweets.words <- lapply(influencers, tokenize, influencers.followers.tweets, "follower")
+names(influencers.followers.tweets.words) <- influencers
+```
+
+```{r}
+# afinn data
+influencers.tweets.words.afinn <- lapply(influencers.tweets.words, afinn_sentiment)
+influencers.followers.tweets.words.afinn <- lapply(influencers.followers.tweets.words, afinn_sentiment)
+```
+
+```{r}
+# nrc data
+influencers.followers.tweets.words.nrc.2hr <- nrc_every_2hr(
+    influencers,
+    influencers.followers.tweets.words.nrc,
+    influencers.tweets
+)
+```
+
+### Afinn
+
+```{r include = TRUE}
+afinn_throughout_7_days(
+    influencers.tweets.words.afinn,
+    influencers.followers.tweets.words.afinn)
+```
+
+---
+
+```{r include = TRUE}
+afinn_time_period_within_pos_neg_5hr(
+    "CNN",
+    influencers.tweets.words.afinn,
+    influencers.followers.tweets.words.afinn)
+```
+
+---
+
+```{r include = TRUE}
+afinn_time_period_within_pos_neg_5hr(
+    "elonmusk",
+    influencers.tweets.words.afinn,
+    influencers.followers.tweets.words.afinn)
+```
+
+---
+
+```{r include = TRUE}
+afinn_time_period_within_pos_neg_5hr(
+    "HillaryClinton",
+    influencers.tweets.words.afinn,
+    influencers.followers.tweets.words.afinn)
+```
+
+---
+
+```{r include = TRUE}
+afinn_time_period_within_pos_neg_5hr(
+    "JoeBiden",
+    influencers.tweets.words.afinn,
+    influencers.followers.tweets.words.afinn)
+```
+
+---
+
+Not much correlation
+
+### NRC
+
+```{r}
+influencers.tweets.words.nrc <- lapply(influencers.tweets.words, nrc_sentiment)
+influencers.followers.tweets.words.nrc <- lapply(influencers.followers.tweets.words, nrc_sentiment)
+```
+
+```{r}
+grouped_nrc <- nrc_time_period_within_pos_neg_5hr(
+    influencers,
+    influencers.tweets.words.nrc,
+    influencers.followers.tweets.words.nrc
+)
+
+influencers.tweets.words.nrc.prop <- lapply(
+    influencers.tweets.words.nrc |>
+        lapply(function(x) { x |> mutate(corresponding = created_at) }),
+    nrc_prop)
+
+grouped_nrc <- nrc_prop(grouped_nrc)
+```
+
+```{r include = TRUE}
+plot_nrc_10hr_every_2hr(
+    "CNN",
+    influencers.tweets.words.nrc,
+    influencers.followers.tweets.words.nrc.2hr
+)
+```
+
+---
+
+```{r include = TRUE}
+plot_nrc_10hr_every_2hr(
+    "elonmusk",
+    influencers.tweets.words.nrc,
+    influencers.followers.tweets.words.nrc.2hr
+)
+```
+
+---
+
+```{r include = TRUE}
+plot_nrc_10hr_every_2hr(
+    "HillaryClinton",
+    influencers.tweets.words.nrc,
+    influencers.followers.tweets.words.nrc.2hr
+)
+```
+
+---
+
+```{r include = TRUE}
+plot_nrc_10hr_every_2hr(
+    "JoeBiden",
+    influencers.tweets.words.nrc,
+    influencers.followers.tweets.words.nrc.2hr
+)
+```
+
+---
+
+Not much correlation either
+
+### Tweet annotations
+
+According to documentation by Twitter:
+
+>  Tweet annotations offer a way to understand contextual information about the Tweet itself. Though 100% of Tweets are reviewed, due to the contents of Tweet text, only a portion are annotated.
+$^5$
+
+- Entity annotations (named-entity recognition)
+- Context annotations
+
+### Entity
+
+Twitter documentation:
+
+> Entity annotations (NER): Entities are comprised of people, places, products, and organizations. ... They are programmatically assigned based on what is explicitly mentioned (named-entity recognition) in the Tweet text.
+$^5$
+
+---
+
+```json
+{
+    "created_at": "2023-04-19T23:13:00.000Z",
+    "text": "When Speaker McCarthy went to Wall Street, ...",
+    "entities": {
+        "annotations": [
+            ... ,
+            {
+                "start": 30,
+                "end": 40,
+                "probability": 0.9516,
+                "type": "Place",
+                "normalized_text": "Wall Street"
+            }
+        ]
+    },
+    "id": "1648827065242640384",
+    "context_annotations": [ ... ]
+}
+```
+
+---
+
+```{r}
+influencers.tweets.entities <- lapply(influencers.tweets, get_entities)
+influencers.followers.tweets.entities <- lapply(influencers.followers.tweets, get_entities)
+```
+
+```{r}
+entity_appearance_acc_1hr <- cal_entity_appearance_acc_1hr(
+    influencers,
+    influencers.followers.tweets.entities,
+    influencers.tweets,
+    influencers.tweets.entities
+)
+```
+
+```{r include = TRUE}
+plot_entity_acc_every_1hr(entity_appearance_acc_1hr)
+```
+
+---
+
+Some influence found in political figures
+
+### Context
+
+Twitter documentation:
+
+> Context annotations: Derived from the analysis of a Tweet’s text and will include a domain and entity pairing which can be used to discover Tweets on topics that may have been previously difficult to surface. At present, we’re using a list of 80+ domains to categorize Tweets.
+$^5$
+
+Currently 144753 available context annotation entities$^6$
+
+---
+
+```json
+[
+    {
+        "domain": { ... },
+        "entity": {
+            "id": "1557697333571112960",
+            "name": "Technology Business",
+            "description": "..."
+        }
+    },
+    {
+        "domain": { ... },
+        "entity": {
+            "id": "808713037230157824",
+            "name": "Elon Musk",
+            "description": "Elon Musk"
+        }
+    },
+]
+```
+
+---
+
+```{r}
+influencers.tweets.contexts <- lapply(influencers.tweets, get_contexts)
+influencers.followers.tweets.contexts <- lapply(influencers.followers.tweets, get_contexts)
+```
+
+```{r}
+overall_context_appearance_acc <- cal_overall_context_appearance(
+    influencers,
+    influencers.followers.tweets.contexts,
+    influencers.tweets.contexts
+)
+```
+
+```{r include = TRUE}
+plot_overall_context_appearance_acc(overall_context_appearance_acc)
+```
+
+---
+
+Higher correlation found in analysing context
+
+## 27-4-23
+
+```{r}
+# Load JSONs
+date_r <- "27-4-23"
+influencers <- c("CNN", "elonmusk", "HillaryClinton", "JoeBiden")
+influencers.tweets <- sapply(influencers, function(influencer) {
+    fromJSON(file = glue("tweets/{date_r}/{influencer}/tweets.json")) |>
+        lapply(as.data.frame) |>
+        rbindlist(fill = TRUE)
+})
+influencers.followers.ids <- sapply(influencers, function(influencer) {
+    fromJSON(file = glue("tweets/{date_r}/{influencer}/followers.json")) |>
+        lapply(as.data.frame) |>
+        rbindlist(fill = TRUE)
+})
+influencers.followers.tweets <- sapply(influencers, function(influencer) {
+    fromJSON(file = glue("tweets/{date_r}/{influencer}/follower_tweets.json")) |>
+        lapply(as.data.frame) |>
+        rbindlist(fill = TRUE)
+})
+```
+
+```{r}
+# Format tweets
+influencers.tweets <- lapply(influencers.tweets, use_datetime_object)
+influencers.followers.tweets <- lapply(influencers.followers.tweets, use_datetime_object)
+
+influencers.tweets <- lapply(influencers.tweets, remove_url)
+influencers.followers.tweets <- lapply(influencers.followers.tweets, remove_url)
+
+influencers.tweets.words <- lapply(influencers, tokenize, influencers.tweets, "user")
+names(influencers.tweets.words) <- influencers
+influencers.followers.tweets.words <- lapply(influencers, tokenize, influencers.followers.tweets, "follower")
+names(influencers.followers.tweets.words) <- influencers
+```
+
+- afinn values and nrc emotions are still chaotic, no correlation between influencer account tweets and follower tweets
+- Some correlation in terms of entity and context
+
+### Entity
+
+```{r}
+influencers.tweets.entities <- lapply(influencers.tweets, get_entities)
+influencers.followers.tweets.entities <- lapply(influencers.followers.tweets, get_entities)
+```
+
+```{r}
+entity_appearance_1hr <- cal_entity_appearance(
+    influencers,
+    influencers.followers.tweets.entities,
+    influencers.tweets.entities
+)
+```
+
+```{r include = TRUE}
+plot_entity_every_1hr(influencers, entity_appearance_1hr)
+```
+
+---
+
+```{r}
+entity_appearance_acc_1hr <- cal_entity_appearance_acc_1hr(
+    influencers,
+    influencers.followers.tweets.entities,
+    influencers.tweets,
+    influencers.tweets.entities
+)
+```
+
+```{r include = TRUE}
+plot_entity_acc_every_1hr(entity_appearance_acc_1hr)
+```
+
+### Context
+
+```{r}
+influencers.tweets.contexts <- lapply(influencers.tweets, get_contexts)
+influencers.followers.tweets.contexts <- lapply(influencers.followers.tweets, get_contexts)
+```
+
+```{r}
+overall_context_appearance <- cal_overall_context_appearance(
+    influencers,
+    influencers.followers.tweets.contexts,
+    influencers.tweets.contexts)
+```
+
+```{r include = TRUE}
+plot_overall_context_appearance(overall_context_appearance)
+```
+
+---
+
+```{r}
+overall_context_appearance_acc <- cal_overall_context_appearance(
+    influencers,
+    influencers.followers.tweets.contexts,
+    influencers.tweets.contexts
+)
+```
+
+```{r include = TRUE}
+plot_overall_context_appearance_acc(overall_context_appearance_acc)
+```
+
+# Conclusion
+
+- Some degree of influence in terms of tweet topics (is that true?)
+- No direct influence in terms of emotions
+
+# Limitations
+
+- Noise
+    - Respective influencer is not followers' only source of tweets
+        - Average following count 357.49562924934094
+        - Max 66385
+- Tweets do not always respond to influencer tweets
+    - Post about daily life
+- Filtered out retweets and replies
+    - Scope of analysis only on how twitter users naturally tweets
+- Not analysing attached media on tweets
+    - Media sometimes contains most of the context
+- Restricted amount of data
+    - Using Twitter API with old 'Essential' tier
+    - Can only retrieve tweets up to 7 days before time of retrival
+    - 500,000 tweets per month
+
+# Future directions
+
+- More influencers
+    - Group influencers and followers according to tweet topics
+    - How multiple influencers may affect a group of followers
+- Analyse retweet behaviour
+    - How information and ideologies are spread from influencers and among followers
+- Analyse attached media
+    - Extract text from GIF, still image and videos
+    - Abstract / Title of a webiste pointed by URL
+
+# References
+
+1. Granberg-Rademacker, J.S., Parsneau, K. (2018). Tweet You Very Much: An Analysis of Candidate Twitter Usage from the 2016 Iowa Caucus to Super Tuesday. In: Galdieri, C., Lucas, J., Sisco, T. (eds) The Role of Twitter in the 2016 US Election. Palgrave Pivot, Cham. https://doi.org/10.1007/978-3-319-68981-4_3
+
+2. Fuchs, C. (2021). How Did Donald Trump Incite a Coup Attempt? TripleC, 19(1), 246–251. https://doi.org/10.31269/triplec.v19i1.1239
+
+3. Finn Ärup Nielsen (2011), ``A new ANEW: Evaluation of a word list for sentiment analysis in microblogs'', Proceedings of the ESWC2011 Workshop on 'Making Sense of Microposts': Big things come in small packages (2011) 93-98
+
+4. Saif M. Mohammad and Peter Turney. (2013), ``Crowdsourcing a Word-Emotion Association Lexicon.'' Computational Intelligence, 29(3): 436-465. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8640.2012.00460.x
+
+5. https://developer.twitter.com/en/docs/twitter-api/annotations/overview
+
+6. https://github.com/twitterdev/twitter-context-annotations
+
+7. https://github.com/9tin9tin9/COMP2501-project

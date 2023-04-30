@@ -1,0 +1,1184 @@
+[
+    {
+        "edit_history_tweet_ids": [
+            "1650855293406904320"
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 2,
+                    "probability": 0.83,
+                    "type": "Person",
+                    "normalized_text": "Joe"
+                },
+                {
+                    "start": 8,
+                    "end": 13,
+                    "probability": 0.8891,
+                    "type": "Person",
+                    "normalized_text": "Kamala"
+                }
+            ],
+            "urls": [
+                {
+                    "start": 218,
+                    "end": 241,
+                    "url": "https://t.co/RH881JCR75",
+                    "expanded_url": "https://secure.actblue.com/donate/social-bfp_launch-apr-2023?refcode=hrc",
+                    "display_url": "secure.actblue.com/donate/social-\u2026",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1650855337895817216/BZDXx_V9?format=jpg&name=orig",
+                            "width": 1024,
+                            "height": 512
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1650855337895817216/BZDXx_V9?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "Donate to reelect Joe Biden and Kamala Harris",
+                    "description": "It\u2019s official: Joe Biden and Kamala Harris are running for reelection. It\u2019s going to take this full team at Joe and Kamala\u2019s backs to finish the job and deliver four more years for Democrats in the White House. Will you pitch in today?",
+                    "unwound_url": "https://secure.actblue.com/donate/social-bfp_launch-apr-2023?refcode=hrc"
+                },
+                {
+                    "start": 242,
+                    "end": 265,
+                    "url": "https://t.co/swg4UdNxcl",
+                    "expanded_url": "https://twitter.com/JoeBiden/status/1650801827728986112",
+                    "display_url": "twitter.com/JoeBiden/statu\u2026"
+                }
+            ]
+        },
+        "text": "Joe and Kamala are the best people for the job of defending our democracy, fighting for our rights, and making sure everyone has a fair shot. \n\nJoin me in becoming a part of their re-election campaign, starting today.\u00a0https://t.co/RH881JCR75 https://t.co/swg4UdNxcl",
+        "created_at": "2023-04-25T13:32:28.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "id": "1650855293406904320"
+    },
+    {
+        "edit_history_tweet_ids": [
+            "1650509308411494410"
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 21,
+                    "end": 34,
+                    "probability": 0.9831,
+                    "type": "Person",
+                    "normalized_text": "Kevin McCarthy"
+                },
+                {
+                    "start": 94,
+                    "end": 100,
+                    "probability": 0.9074,
+                    "type": "Place",
+                    "normalized_text": "America"
+                }
+            ],
+            "urls": [
+                {
+                    "start": 175,
+                    "end": 198,
+                    "url": "https://t.co/N2qqYKz3Hw",
+                    "expanded_url": "https://www.nytimes.com/2023/04/24/opinion/hillary-clinton-debt-ceiling-republican-dollar.html",
+                    "display_url": "nytimes.com/2023/04/24/opi\u2026",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1650424892523700226/9DXmoiRQ?format=jpg&name=orig",
+                            "width": 1600,
+                            "height": 900
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1650424892523700226/9DXmoiRQ?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "Opinion | Hillary Clinton: Republicans Are Playing Into the Hands of Putin and Xi",
+                    "description": "The former secretary of state on why the Republicans\u2019 game with the debt ceiling is landing at a particularly perilous moment for the economy and for global security.",
+                    "unwound_url": "https://www.nytimes.com/2023/04/24/opinion/hillary-clinton-debt-ceiling-republican-dollar.html"
+                }
+            ],
+            "mentions": [
+                {
+                    "start": 161,
+                    "end": 172,
+                    "username": "nytopinion",
+                    "id": "16686144"
+                }
+            ]
+        },
+        "text": "Speaker of the House Kevin McCarthy is making a ransom demand. His hostage is the economy and America\u2019s credibility.\n\nRead my view of the debt ceiling debate at\u00a0@nytopinion:\n\nhttps://t.co/N2qqYKz3Hw",
+        "created_at": "2023-04-24T14:37:38.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "963858007305023493",
+                    "name": "Kevin McCarthy",
+                    "description": "US Representative Kevin McCarthy (CA-23)"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "963858007305023493",
+                    "name": "Kevin McCarthy",
+                    "description": "US Representative Kevin McCarthy (CA-23)"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697121477832705",
+                    "name": "Publisher & News Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to  marketing and advertiser agencies, publishers of magazines, newspapers, blogs, books"
+                }
+            },
+            {
+                "domain": {
+                    "id": "88",
+                    "name": "Political Body",
+                    "description": "A section of a government, like The Supreme Court"
+                },
+                "entity": {
+                    "id": "961705302700654593",
+                    "name": "United States Congress",
+                    "description": "United States Congress"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847511168268644352",
+                    "name": "Global Economy",
+                    "description": "Conversation about global finance and economies."
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "961705302700654593",
+                    "name": "United States Congress",
+                    "description": "United States Congress"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "963858007305023493",
+                    "name": "Kevin McCarthy",
+                    "description": "US Representative Kevin McCarthy (CA-23)"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1068583660914266113",
+                    "name": "Government institutions",
+                    "description": "Political Body"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1239963613978226688",
+                    "name": "Economic Issues in the United States"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10040666972",
+                    "name": "The New York Times"
+                }
+            },
+            {
+                "domain": {
+                    "id": "88",
+                    "name": "Political Body",
+                    "description": "A section of a government, like The Supreme Court"
+                },
+                "entity": {
+                    "id": "897916387829481472",
+                    "name": "United States House of Representatives",
+                    "description": "United States House of Representatives"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040666972",
+                    "name": "The New York Times"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "897916387829481472",
+                    "name": "United States House of Representatives",
+                    "description": "United States House of Representatives"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1046545033657081857",
+                    "name": "News",
+                    "description": "News"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1068583660914266113",
+                    "name": "Government institutions",
+                    "description": "Political Body"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1196447117297905665",
+                    "name": "News outlets"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1239963613978226688",
+                    "name": "Economic Issues in the United States"
+                }
+            }
+        ],
+        "id": "1650509308411494410"
+    },
+    {
+        "edit_history_tweet_ids": [
+            "1649779890315579393"
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 183,
+                    "end": 191,
+                    "probability": 0.6704,
+                    "type": "Other",
+                    "normalized_text": "Earth Day"
+                }
+            ],
+            "urls": [
+                {
+                    "start": 269,
+                    "end": 292,
+                    "url": "https://t.co/S5ZzMdCeoJ",
+                    "expanded_url": "https://twitter.com/HillaryClinton/status/1649779890315579393/photo/1",
+                    "display_url": "pic.twitter.com/S5ZzMdCeoJ",
+                    "media_key": "3_1649779839715377153"
+                }
+            ]
+        },
+        "text": "My most profound hope for my grandchildren, and for every child, is that they have the chance to live up to their God-given potential. To do it, they'll need a healthy planet. \n\nThis Earth Day, let's recommit to leaving them a thriving place to reach for their dreams. https://t.co/S5ZzMdCeoJ",
+        "created_at": "2023-04-22T14:19:11.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1231938152383668224",
+                    "name": "Earth Day",
+                    "description": "This entity covers all conversations for all years for Earth Day"
+                }
+            },
+            {
+                "domain": {
+                    "id": "119",
+                    "name": "Holiday",
+                    "description": "Holidays like Christmas or Halloween"
+                },
+                "entity": {
+                    "id": "1231938152383668224",
+                    "name": "Earth Day",
+                    "description": "This entity covers all conversations for all years for Earth Day"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847548225712119808",
+                    "name": "Holidays",
+                    "description": "Holidays"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "854692455005921281",
+                    "name": "Science",
+                    "description": "Science"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1248631349096767488",
+                    "name": "Environmentalism"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1278017316656082945",
+                    "name": "Green living"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1291095284756357120",
+                    "name": "Cultural events"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1436053202835689485",
+                    "name": "Events"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "id": "1649779890315579393"
+    },
+    {
+        "edit_history_tweet_ids": [
+            "1649081234511806465"
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 64,
+                    "end": 68,
+                    "probability": 0.9583,
+                    "type": "Person",
+                    "normalized_text": "Biden"
+                }
+            ],
+            "urls": [
+                {
+                    "start": 254,
+                    "end": 277,
+                    "url": "https://t.co/DQpTiDI50l",
+                    "expanded_url": "https://twitter.com/aijenpoo/status/1648284312746225666",
+                    "display_url": "twitter.com/aijenpoo/statu\u2026"
+                }
+            ],
+            "mentions": [
+                {
+                    "start": 226,
+                    "end": 241,
+                    "username": "OnwardTogether",
+                    "id": "821424486868254720"
+                }
+            ]
+        },
+        "text": "The good news you might not yet have heard this week: President Biden just took transformational action for American families. \n\nCongratulations to all the advocates for access to child care and long-term care, including many @onwardtogether partners. \ud83d\udc9a https://t.co/DQpTiDI50l",
+        "created_at": "2023-04-20T16:02:59.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "864925500627484672",
+                    "name": "Family and life stages",
+                    "description": "Family and Life Stages"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "1092545020932976640",
+                    "name": "Caregiving",
+                    "description": "Caregiving"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10040395078",
+                    "name": "Joe Biden",
+                    "description": "US President Joe Biden"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "88",
+                    "name": "Political Body",
+                    "description": "A section of a government, like The Supreme Court"
+                },
+                "entity": {
+                    "id": "871795678447456256",
+                    "name": "The White House",
+                    "description": "Conversation from and about the White House, both as a destination and as political voice"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "871795678447456256",
+                    "name": "The White House",
+                    "description": "Conversation from and about the White House, both as a destination and as political voice"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1068583660914266113",
+                    "name": "Government institutions",
+                    "description": "Political Body"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "id": "1649081234511806465"
+    },
+    {
+        "edit_history_tweet_ids": [
+            "1649060253307117569"
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 5,
+                    "end": 21,
+                    "probability": 0.6053,
+                    "type": "Other",
+                    "normalized_text": "Saba Kept Singing"
+                },
+                {
+                    "start": 32,
+                    "end": 40,
+                    "probability": 0.5434,
+                    "type": "Other",
+                    "normalized_text": "Holocaust"
+                },
+                {
+                    "start": 51,
+                    "end": 69,
+                    "probability": 0.606,
+                    "type": "Person",
+                    "normalized_text": "David \u201cSaba\u201d Wisnia"
+                },
+                {
+                    "start": 93,
+                    "end": 101,
+                    "probability": 0.8379,
+                    "type": "Place",
+                    "normalized_text": "Auschwitz"
+                },
+                {
+                    "start": 232,
+                    "end": 238,
+                    "probability": 0.92,
+                    "type": "Other",
+                    "normalized_text": "YouTube"
+                }
+            ],
+            "hashtags": [
+                {
+                    "start": 265,
+                    "end": 284,
+                    "tag": "HowSabaKeptSinging"
+                }
+            ],
+            "urls": [
+                {
+                    "start": 241,
+                    "end": 264,
+                    "url": "https://t.co/1gaFVsMZ9P",
+                    "expanded_url": "https://www.youtube.com/watch?v=m84Uz8A14uE",
+                    "display_url": "youtube.com/watch?v=m84Uz8\u2026",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651362487621783553/qKL6secr?format=jpg&name=orig",
+                            "width": 480,
+                            "height": 360
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651362487621783553/qKL6secr?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "How Saba Kept Singing | Retro Report",
+                    "description": "\"How Saba Kept Singing\" is a testament to the power of music, art, and love. Watch as one family travels back to Europe to learn the remarkable story of how ...",
+                    "unwound_url": "https://www.youtube.com/watch?v=m84Uz8A14uE"
+                },
+                {
+                    "start": 285,
+                    "end": 308,
+                    "url": "https://t.co/fhx0EfD3qD",
+                    "expanded_url": "https://twitter.com/HillaryClinton/status/1649060253307117569/photo/1",
+                    "display_url": "pic.twitter.com/fhx0EfD3qD",
+                    "media_key": "3_1649060181576220673"
+                }
+            ],
+            "mentions": [
+                {
+                    "start": 179,
+                    "end": 194,
+                    "username": "HiddenLightPrd",
+                    "id": "1334763787681927170"
+                },
+                {
+                    "start": 196,
+                    "end": 208,
+                    "username": "SaraTaksler",
+                    "id": "291779599"
+                },
+                {
+                    "start": 216,
+                    "end": 228,
+                    "username": "RetroReport",
+                    "id": "87057908"
+                }
+            ]
+        },
+        "text": "\u201cHow Saba Kept Singing\u201d follows Holocaust survivor David \u201cSaba\u201d Wisnia as he travels back to Auschwitz with his family to uncover his past. You can watch this inspiring film from @HiddenLightPrd, @SaraTaksler, &amp; @RetroReport on YouTube: https://t.co/1gaFVsMZ9P #HowSabaKeptSinging https://t.co/fhx0EfD3qD",
+        "created_at": "2023-04-20T14:39:37.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "10029382357",
+                    "name": "YouTube"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            },
+            {
+                "domain": {
+                    "id": "6",
+                    "name": "Sports Event"
+                },
+                "entity": {
+                    "id": "1631808186574417920",
+                    "name": "Chennai Super Kings vs Lucknow Super Giants"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1631808186574417920",
+                    "name": "Chennai Super Kings vs Lucknow Super Giants"
+                }
+            },
+            {
+                "domain": {
+                    "id": "83",
+                    "name": "Cricket Match",
+                    "description": "Sports Event specific to Cricket matches"
+                },
+                "entity": {
+                    "id": "1631808186574417920",
+                    "name": "Chennai Super Kings vs Lucknow Super Giants"
+                }
+            }
+        ],
+        "id": "1649060253307117569"
+    },
+    {
+        "edit_history_tweet_ids": [
+            "1649039243962974208"
+        ],
+        "text": "2022 was a big year for the @ClintonFdn. Huge thank you to our partners, supporters, staff, and everyone who keeps the focus on building a more inclusive, equitable, and sustainable world. https://t.co/njfnEwEKcj",
+        "entities": {
+            "urls": [
+                {
+                    "start": 189,
+                    "end": 212,
+                    "url": "https://t.co/njfnEwEKcj",
+                    "expanded_url": "https://www.clintonfoundation.org/2022-impact-report/",
+                    "display_url": "clintonfoundation.org/2022-impact-re\u2026",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651254794353364992/AVul1Z4n?format=jpg&name=orig",
+                            "width": 2000,
+                            "height": 923
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1651254794353364992/AVul1Z4n?format=jpg&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "2022 Impact Report",
+                    "description": "Every success and opportunity should be treated as a challenge to help more people build better lives for themselves and their communities. Read reflections from President Bill Clinton, Secretary Hillary Rodham Clinton, and Chelsea Clinton.",
+                    "unwound_url": "https://www.clintonfoundation.org/2022-impact-report/"
+                }
+            ],
+            "mentions": [
+                {
+                    "start": 28,
+                    "end": 39,
+                    "username": "ClintonFdn",
+                    "id": "75069067"
+                }
+            ]
+        },
+        "created_at": "2023-04-20T13:16:08.000Z",
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "35",
+                    "name": "Politician",
+                    "description": "Politicians in the world, like Joe Biden"
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10037721440",
+                    "name": "Hillary Clinton",
+                    "description": "Former First Lady of the United States Hillary Clinton"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847878884917886977",
+                    "name": "Politics",
+                    "description": "Politics"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070032753834438656",
+                    "name": "Political figures",
+                    "description": "Politician"
+                }
+            }
+        ],
+        "id": "1649039243962974208"
+    }
+]

@@ -1,0 +1,1391 @@
+[
+    {
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ],
+        "created_at": "2023-04-20T04:13:52.000Z",
+        "entities": {
+            "urls": [
+                {
+                    "start": 39,
+                    "end": 62,
+                    "url": "https://t.co/VxZOEaD652",
+                    "expanded_url": "https://twitter.com/spacex/status/1648800397279240192",
+                    "display_url": "twitter.com/spacex/status/\u2026"
+                }
+            ]
+        },
+        "edit_history_tweet_ids": [
+            "1648902780038393856"
+        ],
+        "id": "1648902780038393856",
+        "text": "All systems currently green for launch https://t.co/VxZOEaD652"
+    },
+    {
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ],
+        "created_at": "2023-04-18T02:44:41.000Z",
+        "edit_history_tweet_ids": [
+            "1648155558858612737"
+        ],
+        "id": "1648155558858612737",
+        "text": "Fun times \ud83e\udd29"
+    },
+    {
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 25,
+                    "probability": 0.8573,
+                    "type": "Organization",
+                    "normalized_text": "Canadian Broadcasting Corp"
+                }
+            ],
+            "urls": [
+                {
+                    "start": 101,
+                    "end": 124,
+                    "url": "https://t.co/lU1EWf76Zu",
+                    "expanded_url": "https://twitter.com/elonmusk/status/1648135878454177794/photo/1",
+                    "display_url": "pic.twitter.com/lU1EWf76Zu",
+                    "media_key": "3_1648135872020205572"
+                }
+            ]
+        },
+        "created_at": "2023-04-18T01:26:28.000Z",
+        "edit_history_tweet_ids": [
+            "1648135878454177794"
+        ],
+        "id": "1648135878454177794",
+        "text": "Canadian Broadcasting Corp said they\u2019re \u201cless than 70% government-funded\u201d, so we corrected the label https://t.co/lU1EWf76Zu"
+    },
+    {
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 12,
+                    "probability": 0.5938,
+                    "type": "Other",
+                    "normalized_text": "Mini Starship"
+                }
+            ],
+            "urls": [
+                {
+                    "start": 26,
+                    "end": 49,
+                    "url": "https://t.co/VGKHyaikTd",
+                    "expanded_url": "https://shop.spacex.com/collections/featured-products/products/starship-torch",
+                    "display_url": "shop.spacex.com/collections/fe\u2026",
+                    "images": [
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1647947344661426177/z4mRurlX?format=png&name=orig",
+                            "width": 600,
+                            "height": 600
+                        },
+                        {
+                            "url": "https://pbs.twimg.com/news_img/1647947344661426177/z4mRurlX?format=png&name=150x150",
+                            "width": 150,
+                            "height": 150
+                        }
+                    ],
+                    "status": 200,
+                    "title": "STARSHIP TORCH PRE-SALE",
+                    "description": "\u00a0*PRE-SALE.\u00a0 BURNING\u00a0Q3 2023 The man in black, Johnny Cash knew a thing or two about burning desire. But love isn\u2019t the only thing that burns. Sometimes you just want to caramelize the sugar on a cr\u00e8me br\u00fbl\u00e9e or melt some cheese without all the subtext. Enter the Starship Torch. \u00a0 Designed to generate a windproof flame worthy of its namesake, the handheld Starship Torch will make easy work of searing anything from steak to meringue. Outside of the kitchen, fire up Starship to light candles or your fireplace. Who needs weak matches when you\u2019ve got the power of Starship in your hands? \u00a0 When not in use, activate the safety lock and your torch transforms into a bad-ass 1:200 scale model of SpaceX\u2019s Starship spacecraft fit for display. \u00a0\u00a0 It\u2019s collectible. It\u2019s functional. And it burns, burns, burns. The Starship",
+                    "unwound_url": "https://shop.spacex.com/collections/featured-products/products/starship-torch"
+                }
+            ]
+        },
+        "created_at": "2023-04-17T23:59:15.000Z",
+        "edit_history_tweet_ids": [
+            "1648113929162203136"
+        ],
+        "id": "1648113929162203136",
+        "text": "Mini Starship with flame!\nhttps://t.co/VGKHyaikTd"
+    },
+    {
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 8,
+                    "probability": 0.5195,
+                    "type": "Other",
+                    "normalized_text": "Cryogenic"
+                },
+                {
+                    "start": 29,
+                    "end": 36,
+                    "probability": 0.5517,
+                    "type": "Other",
+                    "normalized_text": "Starship"
+                }
+            ]
+        },
+        "created_at": "2023-04-17T12:18:42.000Z",
+        "edit_history_tweet_ids": [
+            "1647937628808040448"
+        ],
+        "id": "1647937628808040448",
+        "text": "Cryogenic propellant load of Starship is underway, liftoff in T minus 1 hour"
+    },
+    {
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 7,
+                    "probability": 0.6737,
+                    "type": "Other",
+                    "normalized_text": "Starship"
+                }
+            ]
+        },
+        "created_at": "2023-04-17T05:46:06.000Z",
+        "edit_history_tweet_ids": [
+            "1647838825861840897"
+        ],
+        "id": "1647838825861840897",
+        "text": "Starship launch attempt in ~7 hours"
+    },
+    {
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ],
+        "created_at": "2023-04-16T15:52:21.000Z",
+        "entities": {
+            "urls": [
+                {
+                    "start": 24,
+                    "end": 47,
+                    "url": "https://t.co/czFsQ53Xsa",
+                    "expanded_url": "https://twitter.com/elonmusk/status/1647629006089461761/photo/1",
+                    "display_url": "pic.twitter.com/czFsQ53Xsa",
+                    "media_key": "3_1647628999894487049"
+                }
+            ]
+        },
+        "edit_history_tweet_ids": [
+            "1647629006089461761"
+        ],
+        "id": "1647629006089461761",
+        "text": "Launch attempt tomorrow https://t.co/czFsQ53Xsa"
+    },
+    {
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "872801340224806912",
+                    "name": "Aerospace",
+                    "description": "Aerospace"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696420500541440",
+                    "name": "Automotive, Aircraft & Boat Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to automobile, spacecraft, aircraft and boat manufacturing"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "47",
+                    "name": "Brand",
+                    "description": "Brands and Companies"
+                },
+                "entity": {
+                    "id": "872801738394279936",
+                    "name": "SpaceX",
+                    "description": "SpaceX"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "854692455005921281",
+                    "name": "Science",
+                    "description": "Science"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "847899255880564736",
+                    "name": "Space",
+                    "description": "Space and astronomy"
+                }
+            },
+            {
+                "domain": {
+                    "id": "88",
+                    "name": "Political Body",
+                    "description": "A section of a government, like The Supreme Court"
+                },
+                "entity": {
+                    "id": "941747003825852416",
+                    "name": "International Space Station",
+                    "description": "International Space Station"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847899255880564736",
+                    "name": "Space",
+                    "description": "Space and astronomy"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "854692455005921281",
+                    "name": "Science",
+                    "description": "Science"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "872801738394279936",
+                    "name": "SpaceX",
+                    "description": "SpaceX"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "941747003825852416",
+                    "name": "International Space Station",
+                    "description": "International Space Station"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1352681651516567553",
+                    "name": "Space agencies & companies"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1354066690909249536",
+                    "name": "Space missions"
+                }
+            },
+            {
+                "domain": {
+                    "id": "164",
+                    "name": "Fields of study",
+                    "description": "for all fields of study, e.g., futurology, microbiology "
+                },
+                "entity": {
+                    "id": "854692455005921281",
+                    "name": "Science",
+                    "description": "Science"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1123349108930990080",
+                    "name": "SpaceX's Dragon spacecraft reaches the International Space Station's robotic arm"
+                }
+            },
+            {
+                "domain": {
+                    "id": "29",
+                    "name": "Events [Entity Service]",
+                    "description": "Real world events. "
+                },
+                "entity": {
+                    "id": "1152148110459564032",
+                    "name": "Crew to head to the International Space Station",
+                    "description": "On the 50th anniversary of the historic Apollo 11 moon landing, @AstroDrewMorgan, @astro_luca and Alexander Skvortsov are heading for the International Space Station aboard a Soyuz spacecraft."
+                }
+            }
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 15,
+                    "end": 25,
+                    "probability": 0.7019,
+                    "type": "Other",
+                    "normalized_text": "Dragon Team"
+                }
+            ],
+            "urls": [
+                {
+                    "start": 28,
+                    "end": 51,
+                    "url": "https://t.co/2ZtNuhA8T0",
+                    "expanded_url": "https://twitter.com/SpaceX/status/1647343795103764480",
+                    "display_url": "twitter.com/SpaceX/status/\u2026"
+                }
+            ]
+        },
+        "created_at": "2023-04-15T21:20:53.000Z",
+        "edit_history_tweet_ids": [
+            "1647349297220812802"
+        ],
+        "id": "1647349297220812802",
+        "text": "Yay! Nice work Dragon Team! https://t.co/2ZtNuhA8T0"
+    },
+    {
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "45",
+                    "name": "Brand Vertical",
+                    "description": "Top level entities that describe a Brands industry"
+                },
+                "entity": {
+                    "id": "781974597310615553",
+                    "name": "Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "781974597218340864",
+                    "name": "Video Games - Entertainment"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696848252391426",
+                    "name": "Financial Services Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557696940178935808",
+                    "name": "Gaming Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to offline and online games such as gaming consoles, tabletop games, video game publishers"
+                }
+            },
+            {
+                "domain": {
+                    "id": "46",
+                    "name": "Business Taxonomy",
+                    "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity": {
+                    "id": "1557697333571112960",
+                    "name": "Technology Business",
+                    "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain": {
+                    "id": "30",
+                    "name": "Entities [Entity Service]",
+                    "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity": {
+                    "id": "847527946864607232",
+                    "name": "Mobile gaming",
+                    "description": "Mobile gaming"
+                }
+            },
+            {
+                "domain": {
+                    "id": "71",
+                    "name": "Video Game",
+                    "description": "A video game like Overwatch"
+                },
+                "entity": {
+                    "id": "10045498961",
+                    "name": "Deus Ex",
+                    "description": "This entity includes all conversation about the franchise, as well as any individual installments in the series, if applicable.\t\t\t"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "10045498961",
+                    "name": "Deus Ex",
+                    "description": "This entity includes all conversation about the franchise, as well as any individual installments in the series, if applicable.\t\t\t"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "847527650667094017",
+                    "name": "Gaming",
+                    "description": "Gaming"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1070028159964262400",
+                    "name": "Video games"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1197907410582532096",
+                    "name": "Roleplaying games"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1403427158953922560",
+                    "name": "Shooting games"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1491898787358408746",
+                    "name": "Sci-fi games"
+                }
+            },
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "65",
+                    "name": "Interests and Hobbies Vertical",
+                    "description": "Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity": {
+                    "id": "781974596148793345",
+                    "name": "Business & finance"
+                }
+            },
+            {
+                "domain": {
+                    "id": "66",
+                    "name": "Interests and Hobbies Category",
+                    "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity": {
+                    "id": "857878777191211008",
+                    "name": "Leadership",
+                    "description": "Leadership"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "808713037230157824",
+                    "name": "Elon Musk",
+                    "description": "Elon Musk"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1091420346660470784",
+                    "name": "Tech personalities",
+                    "description": "Tech Professionals"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1166406108623163392",
+                    "name": "Business personalities"
+                }
+            }
+        ],
+        "entities": {
+            "annotations": [
+                {
+                    "start": 17,
+                    "end": 23,
+                    "probability": 0.8885,
+                    "type": "Other",
+                    "normalized_text": "Deus Ex"
+                }
+            ],
+            "urls": [
+                {
+                    "start": 25,
+                    "end": 48,
+                    "url": "https://t.co/MhL5zLJQfn",
+                    "expanded_url": "https://twitter.com/elonmusk/status/1647345410162450432/photo/1",
+                    "display_url": "pic.twitter.com/MhL5zLJQfn",
+                    "media_key": "3_1647345406953783297"
+                }
+            ]
+        },
+        "created_at": "2023-04-15T21:05:26.000Z",
+        "edit_history_tweet_ids": [
+            "1647345410162450432"
+        ],
+        "id": "1647345410162450432",
+        "text": "Also the plot of Deus Ex https://t.co/MhL5zLJQfn"
+    }
+]

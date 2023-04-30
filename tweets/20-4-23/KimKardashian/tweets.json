@@ -1,0 +1,102 @@
+[
+    {
+        "edit_history_tweet_ids": [
+            "1648020730242830337"
+        ],
+        "text": "You and I have unfinished business \ud83c\udf63 https://t.co/2wNYocdT3N",
+        "entities": {
+            "urls": [
+                {
+                    "start": 37,
+                    "end": 60,
+                    "url": "https://t.co/2wNYocdT3N",
+                    "expanded_url": "https://twitter.com/KimKardashian/status/1648020730242830337/photo/1",
+                    "display_url": "pic.twitter.com/2wNYocdT3N",
+                    "media_key": "3_1648020726556008448"
+                },
+                {
+                    "start": 37,
+                    "end": 60,
+                    "url": "https://t.co/2wNYocdT3N",
+                    "expanded_url": "https://twitter.com/KimKardashian/status/1648020730242830337/photo/1",
+                    "display_url": "pic.twitter.com/2wNYocdT3N",
+                    "media_key": "3_1648020726551814144"
+                }
+            ]
+        },
+        "context_annotations": [
+            {
+                "domain": {
+                    "id": "10",
+                    "name": "Person",
+                    "description": "Named people in the world like Nelson Mandela"
+                },
+                "entity": {
+                    "id": "806570121959383040",
+                    "name": "Kim Kardashian",
+                    "description": "Kim Kardashian"
+                }
+            },
+            {
+                "domain": {
+                    "id": "58",
+                    "name": "Entertainment Personality",
+                    "description": "An entertainment personality in the world, like Anderson Cooper or Miranda Sings"
+                },
+                "entity": {
+                    "id": "806570121959383040",
+                    "name": "Kim Kardashian",
+                    "description": "Kim Kardashian"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "806570121959383040",
+                    "name": "Kim Kardashian",
+                    "description": "Kim Kardashian"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1095352268046495745",
+                    "name": "Celebrities",
+                    "description": "Celebrities"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1303715167440527360",
+                    "name": "Famous families"
+                }
+            },
+            {
+                "domain": {
+                    "id": "131",
+                    "name": "Unified Twitter Taxonomy",
+                    "description": "A taxonomy of user interests. "
+                },
+                "entity": {
+                    "id": "1303718958520889345",
+                    "name": "Kardashian-Jenner"
+                }
+            }
+        ],
+        "id": "1648020730242830337",
+        "created_at": "2023-04-17T17:48:55.000Z"
+    }
+]
